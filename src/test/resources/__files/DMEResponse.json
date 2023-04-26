@@ -1,0 +1,3840 @@
+{
+  "departures": [
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:50+03:00",
+        "actualTimeLocal": "2023-04-04 21:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:50Z",
+        "actualTimeUtc": "2023-04-04 18:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:15Z",
+          "local": "2023-04-04 21:15+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Tel Aviv"
+        },
+        "quality": []
+      },
+      "number": "LY 614",
+      "callSign": "ELY614",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "4X-EHH",
+        "modeS": "738056",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "El Al",
+        "iata": "LY",
+        "icao": "ELY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:50+03:00",
+        "actualTimeLocal": "2023-04-04 20:50+03:00",
+        "runwayTimeLocal": "2023-04-04 22:23+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:50Z",
+        "actualTimeUtc": "2023-04-04 17:50Z",
+        "runwayTimeUtc": "2023-04-04 19:23Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 19:23Z",
+          "local": "2023-04-04 22:23+03:00"
+        },
+        "terminal": "1",
+        "gate": "D22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "LTAI",
+          "iata": "AYT",
+          "name": "Antalya"
+        },
+        "quality": []
+      },
+      "number": "S7 3741",
+      "callSign": "SBI3741",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73672",
+        "modeS": "151FC8",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:55+03:00",
+        "actualTimeLocal": "2023-04-04 21:55+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:55Z",
+        "actualTimeUtc": "2023-04-04 18:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:55Z",
+          "local": "2023-04-04 21:55+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:55Z",
+          "local": "2023-04-04 21:55+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Abakan"
+        },
+        "quality": []
+      },
+      "number": "S7 2593",
+      "callSign": "SBI2593",
+      "status": "Boarding",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73410",
+        "modeS": "151EC2",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:10+03:00",
+        "actualTimeLocal": "2023-04-04 21:10+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:10Z",
+        "actualTimeUtc": "2023-04-04 18:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:10Z",
+          "local": "2023-04-04 21:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:10Z",
+          "local": "2023-04-04 21:10+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Novokuznetsk"
+        },
+        "quality": []
+      },
+      "number": "S7 2625",
+      "callSign": "SBI2625",
+      "status": "GateClosed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73423",
+        "modeS": "151ECF",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:00+03:00",
+        "actualTimeLocal": "2023-04-04 22:00+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:00Z",
+        "actualTimeUtc": "2023-04-04 19:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "terminal": "1",
+        "gate": "D8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Addis Ababa"
+        },
+        "quality": []
+      },
+      "number": "ET 761",
+      "callSign": "ETH761",
+      "status": "Boarding",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "ET-AOQ",
+        "modeS": "040047",
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Ethiopian",
+        "iata": "ET",
+        "icao": "ETH"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:05+03:00",
+        "actualTimeLocal": "2023-04-04 22:05+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:05Z",
+        "actualTimeUtc": "2023-04-04 19:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:05Z",
+          "local": "2023-04-04 22:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:05Z",
+          "local": "2023-04-04 22:05+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "120",
+        "gate": "C18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Kyzyl"
+        },
+        "quality": []
+      },
+      "number": "IO 475",
+      "callSign": "IAE475",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89034",
+        "modeS": "155BCA",
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "IrAero",
+        "iata": "IO",
+        "icao": "IAE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:45+03:00",
+        "actualTimeLocal": "2023-04-04 22:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:45Z",
+        "actualTimeUtc": "2023-04-04 19:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:45Z",
+          "local": "2023-04-04 22:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:45Z",
+          "local": "2023-04-04 22:45+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Barnaul"
+        },
+        "quality": []
+      },
+      "number": "S7 2601",
+      "callSign": "SBI2601",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73664",
+        "modeS": "151FC0",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:20+03:00",
+        "actualTimeLocal": "2023-04-04 22:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:20Z",
+        "actualTimeUtc": "2023-04-04 19:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 22:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 22:20+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Chita"
+        },
+        "quality": []
+      },
+      "number": "S7 3047",
+      "callSign": "SBI3047",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73431",
+        "modeS": "151ED7",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:30+03:00",
+        "actualTimeLocal": "2023-04-04 22:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:30Z",
+        "actualTimeUtc": "2023-04-04 19:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:30Z",
+          "local": "2023-04-04 22:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:30Z",
+          "local": "2023-04-04 22:30+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "102-106",
+        "gate": "D22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Bishkek"
+        },
+        "quality": []
+      },
+      "number": "U6 2803",
+      "callSign": "SVR2803",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73843",
+        "modeS": "152073",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:20+03:00",
+        "actualTimeLocal": "2023-04-04 22:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:20Z",
+        "actualTimeUtc": "2023-04-04 19:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 22:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 22:20+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "102-106",
+        "gate": "C16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Barnaul"
+        },
+        "quality": []
+      },
+      "number": "U6 651",
+      "callSign": "SVR651",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73795",
+        "modeS": "152043",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:00+03:00",
+        "actualTimeLocal": "2023-04-04 22:00+03:00",
+        "runwayTimeLocal": "2023-04-04 22:19+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:00Z",
+        "actualTimeUtc": "2023-04-04 19:00Z",
+        "runwayTimeUtc": "2023-04-04 19:19Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 19:19Z",
+          "local": "2023-04-04 22:19+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "55-58",
+        "gate": "D21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Hambantota"
+        },
+        "quality": []
+      },
+      "number": "WZ 3077",
+      "callSign": "RWZ3077",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73330",
+        "modeS": "151E72",
+        "model": "Boeing 777-200"
+      },
+      "airline": {
+        "name": "Red Wings",
+        "iata": "WZ",
+        "icao": "RWZ"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:05+03:00",
+        "actualTimeLocal": "2023-04-04 22:05+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:05Z",
+        "actualTimeUtc": "2023-04-04 19:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:05Z",
+          "local": "2023-04-04 22:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:05Z",
+          "local": "2023-04-04 22:05+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "116-117",
+        "gate": "C14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Norilsk"
+        },
+        "quality": []
+      },
+      "number": "Y7 403",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "NordStar",
+        "iata": "Y7",
+        "icao": "TYA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:50+03:00",
+        "actualTimeLocal": "2023-04-04 22:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:50Z",
+        "actualTimeUtc": "2023-04-04 19:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:50Z",
+          "local": "2023-04-04 22:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:50Z",
+          "local": "2023-04-04 22:50+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "3-5",
+        "gate": "D4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Osh"
+        },
+        "quality": []
+      },
+      "number": "YK 748",
+      "callSign": "AVJ748",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EX-37012",
+        "modeS": "6010AB",
+        "model": "Boeing 737-300"
+      },
+      "airline": {
+        "name": "Avia Traffic Company",
+        "iata": "YK",
+        "icao": "AVJ"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:10+03:00",
+        "actualTimeLocal": "2023-04-04 22:10+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:10Z",
+        "actualTimeUtc": "2023-04-04 19:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:10Z",
+          "local": "2023-04-04 22:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:10Z",
+          "local": "2023-04-04 22:10+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "3-5",
+        "gate": "D9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Bishkek"
+        },
+        "quality": []
+      },
+      "number": "YK 960",
+      "callSign": "AVJ960",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EX-32014",
+        "modeS": "60111C",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "Avia Traffic Company",
+        "iata": "YK",
+        "icao": "AVJ"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:45+03:00",
+        "actualTimeLocal": "2023-04-04 23:59+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:45Z",
+        "actualTimeUtc": "2023-04-04 20:59Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:59Z",
+          "local": "2023-04-04 23:59+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Baku"
+        },
+        "quality": []
+      },
+      "number": "J2 184",
+      "callSign": "AHY184",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "4K-AZ81",
+        "modeS": "600851",
+        "model": "Boeing 767-300"
+      },
+      "airline": {
+        "name": "AZAL Azerbaijan",
+        "iata": "J2",
+        "icao": "AHY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:20+03:00",
+        "actualTimeLocal": "2023-04-04 23:35+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:20Z",
+        "actualTimeUtc": "2023-04-04 20:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:20Z",
+          "local": "2023-04-04 23:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Dubai"
+        },
+        "quality": []
+      },
+      "number": "QF 8132",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Qantas",
+        "iata": "QF",
+        "icao": "QFA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:20+03:00",
+        "actualTimeLocal": "2023-04-04 23:39+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:20Z",
+        "actualTimeUtc": "2023-04-04 20:39Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:20Z",
+          "local": "2023-04-04 23:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:39Z",
+          "local": "2023-04-04 23:39+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Omsk"
+        },
+        "quality": []
+      },
+      "number": "U6 387",
+      "callSign": "SVR387",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73845",
+        "modeS": "152075",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:25+03:00",
+        "actualTimeLocal": "2023-04-04 23:32+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:25Z",
+        "actualTimeUtc": "2023-04-04 20:32Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:25Z",
+          "local": "2023-04-04 23:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:32Z",
+          "local": "2023-04-04 23:32+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Omsk"
+        },
+        "quality": []
+      },
+      "number": "S7 2565",
+      "callSign": "SBI2565",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73414",
+        "modeS": "151EC6",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:15+03:00",
+        "actualTimeLocal": "2023-04-04 23:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:15Z",
+        "actualTimeUtc": "2023-04-04 20:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:15Z",
+          "local": "2023-04-04 23:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:15Z",
+          "local": "2023-04-04 23:15+03:00"
+        },
+        "terminal": "1",
+        "gate": "C20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Norilsk"
+        },
+        "quality": []
+      },
+      "number": "S7 2581",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321-200 (Sharklets)"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:20+03:00",
+        "actualTimeLocal": "2023-04-04 23:35+03:00",
+        "runwayTimeLocal": "2023-04-04 23:36+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:20Z",
+        "actualTimeUtc": "2023-04-04 20:35Z",
+        "runwayTimeUtc": "2023-04-04 20:36Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:20Z",
+          "local": "2023-04-04 23:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 20:36Z",
+          "local": "2023-04-04 23:36+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai City"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:30+04:00",
+        "actualTimeLocal": "2023-04-05 05:20+04:00",
+        "scheduledTimeUtc": "2023-04-05 01:30Z",
+        "actualTimeUtc": "2023-04-05 01:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:30Z",
+          "local": "2023-04-05 05:30+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 01:20Z",
+          "local": "2023-04-05 05:20+04:00"
+        },
+        "terminal": "3",
+        "baggageBelt": "306",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EK 132",
+      "callSign": "UAE132",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-EER",
+        "modeS": "896191",
+        "model": "Airbus A380-800"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:15+03:00",
+        "actualTimeLocal": "2023-04-04 20:24+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:15Z",
+        "actualTimeUtc": "2023-04-04 17:24Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:24Z",
+          "local": "2023-04-04 20:24+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UHBB",
+          "iata": "BQS",
+          "name": "Blagoveschensk"
+        },
+        "scheduledTimeLocal": "2023-04-05 09:35+09:00",
+        "scheduledTimeUtc": "2023-04-05 00:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:35Z",
+          "local": "2023-04-05 09:35+09:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 3061",
+      "callSign": "SBI3061",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73458",
+        "modeS": "151EF2",
+        "model": "Airbus A321-200 (Sharklets)"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:25+03:00",
+        "actualTimeLocal": "2023-04-04 20:44+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:25Z",
+        "actualTimeUtc": "2023-04-04 17:44Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:25Z",
+          "local": "2023-04-04 20:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:44Z",
+          "local": "2023-04-04 20:44+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UIAA",
+          "iata": "HTA",
+          "name": "Chita"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:40+09:00",
+        "scheduledTimeUtc": "2023-04-04 23:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:40Z",
+          "local": "2023-04-05 08:40+09:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 3045",
+      "callSign": "SBI3045",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73459",
+        "modeS": "151EF3",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:10+03:00",
+        "actualTimeLocal": "2023-04-04 22:10+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:10Z",
+        "actualTimeUtc": "2023-04-04 19:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:10Z",
+          "local": "2023-04-04 22:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:10Z",
+          "local": "2023-04-04 22:10+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UIBB",
+          "iata": "BTK",
+          "name": "Bratsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:15+08:00",
+        "scheduledTimeUtc": "2023-04-05 00:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:15Z",
+          "local": "2023-04-05 08:15+08:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 3041",
+      "callSign": "SBI3041",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73457",
+        "modeS": "151EF1",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:00+03:00",
+        "actualTimeLocal": "2023-04-04 21:13+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:00Z",
+        "actualTimeUtc": "2023-04-04 18:13Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:13Z",
+          "local": "2023-04-04 21:13+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UEEE",
+          "iata": "YKS",
+          "name": "Yakutsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 09:30+09:00",
+        "scheduledTimeUtc": "2023-04-05 00:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 09:30+09:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 3005",
+      "callSign": "SBI3005",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73433",
+        "modeS": "151ED9",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:30+03:00",
+        "actualTimeLocal": "2023-04-04 21:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:30Z",
+        "actualTimeUtc": "2023-04-04 18:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:30Z",
+          "local": "2023-04-04 21:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:30Z",
+          "local": "2023-04-04 21:30+03:00"
+        },
+        "terminal": "1",
+        "gate": "C15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UIUU",
+          "iata": "UUD",
+          "name": "Ulan Ude"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:20+08:00",
+        "actualTimeLocal": "2023-04-05 07:55+08:00",
+        "scheduledTimeUtc": "2023-04-05 00:20Z",
+        "actualTimeUtc": "2023-04-04 23:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:20Z",
+          "local": "2023-04-05 08:20+08:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:55Z",
+          "local": "2023-04-05 07:55+08:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 3033",
+      "callSign": "SBI3033",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73452",
+        "modeS": "151EEC",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:35+03:00",
+        "actualTimeLocal": "2023-04-04 21:35+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:35Z",
+        "actualTimeUtc": "2023-04-04 18:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:35Z",
+          "local": "2023-04-04 21:35+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:35Z",
+          "local": "2023-04-04 21:35+03:00"
+        },
+        "terminal": "1",
+        "gate": "C8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UIII",
+          "iata": "IKT",
+          "name": "Irkutsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:55+08:00",
+        "actualTimeLocal": "2023-04-05 08:01+08:00",
+        "scheduledTimeUtc": "2023-04-04 23:55Z",
+        "actualTimeUtc": "2023-04-05 00:01Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:55Z",
+          "local": "2023-04-05 07:55+08:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:01Z",
+          "local": "2023-04-05 08:01+08:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 3017",
+      "callSign": "SBI3017",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73416",
+        "modeS": "151EC8",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:25+03:00",
+        "actualTimeLocal": "2023-04-04 23:33+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:25Z",
+        "actualTimeUtc": "2023-04-04 20:33Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:25Z",
+          "local": "2023-04-04 23:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:33Z",
+          "local": "2023-04-04 23:33+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNNT",
+          "iata": "OVB",
+          "name": "Novosibirsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:30+07:00",
+        "actualTimeLocal": "2023-04-05 07:06+07:00",
+        "scheduledTimeUtc": "2023-04-05 00:30Z",
+        "actualTimeUtc": "2023-04-05 00:06Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 07:30+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:06Z",
+          "local": "2023-04-05 07:06+07:00"
+        },
+        "terminal": "A",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 2513",
+      "callSign": "SBI2513",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73413",
+        "modeS": "151EC5",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:00+03:00",
+        "actualTimeLocal": "2023-04-04 21:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:00Z",
+        "actualTimeUtc": "2023-04-04 18:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:20Z",
+          "local": "2023-04-04 21:20+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNNT",
+          "iata": "OVB",
+          "name": "Novosibirsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:05+07:00",
+        "actualTimeLocal": "2023-04-05 04:53+07:00",
+        "scheduledTimeUtc": "2023-04-04 22:05Z",
+        "actualTimeUtc": "2023-04-04 21:53Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:05Z",
+          "local": "2023-04-05 05:05+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:53Z",
+          "local": "2023-04-05 04:53+07:00"
+        },
+        "terminal": "A",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 2511",
+      "callSign": "SBI2511",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73665",
+        "modeS": "151FC1",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:15+03:00",
+        "actualTimeLocal": "2023-04-04 21:16+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:15Z",
+        "actualTimeUtc": "2023-04-04 18:16Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:15Z",
+          "local": "2023-04-04 21:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:16Z",
+          "local": "2023-04-04 21:16+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USII",
+          "iata": "IJK",
+          "name": "Izhevsk"
+        },
+        "scheduledTimeLocal": "2023-04-04 23:55+04:00",
+        "actualTimeLocal": "2023-04-04 23:42+04:00",
+        "runwayTimeLocal": "2023-04-04 23:37+04:00",
+        "scheduledTimeUtc": "2023-04-04 19:55Z",
+        "actualTimeUtc": "2023-04-04 19:42Z",
+        "runwayTimeUtc": "2023-04-04 19:37Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:55Z",
+          "local": "2023-04-04 23:55+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:42Z",
+          "local": "2023-04-04 23:42+04:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 19:37Z",
+          "local": "2023-04-04 23:37+04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "I8 308",
+      "callSign": "IZA308",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73184",
+        "modeS": "151DE0",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Izhavia",
+        "iata": "I8",
+        "icao": "IZA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:55+03:00",
+        "actualTimeLocal": "2023-04-04 22:55+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:55Z",
+        "actualTimeUtc": "2023-04-04 19:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:55Z",
+          "local": "2023-04-04 22:55+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:55Z",
+          "local": "2023-04-04 22:55+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNTT",
+          "iata": "TOF",
+          "name": "Tomsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:05+07:00",
+        "actualTimeLocal": "2023-04-05 06:48+07:00",
+        "scheduledTimeUtc": "2023-04-05 00:05Z",
+        "actualTimeUtc": "2023-04-04 23:48Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:05Z",
+          "local": "2023-04-05 07:05+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:48Z",
+          "local": "2023-04-05 06:48+07:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 2615",
+      "callSign": "SBI2615",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73424",
+        "modeS": "151ED0",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:35+03:00",
+        "actualTimeLocal": "2023-04-04 20:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:35Z",
+        "actualTimeUtc": "2023-04-04 17:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:35Z",
+          "local": "2023-04-04 20:35+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:45Z",
+          "local": "2023-04-04 20:45+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 00:55+05:00",
+        "actualTimeLocal": "2023-04-05 00:42+05:00",
+        "scheduledTimeUtc": "2023-04-04 19:55Z",
+        "actualTimeUtc": "2023-04-04 19:42Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:55Z",
+          "local": "2023-04-05 00:55+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:42Z",
+          "local": "2023-04-05 00:42+05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U6 263",
+      "callSign": "SVR263",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73817",
+        "modeS": "152059",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:00+03:00",
+        "actualTimeLocal": "2023-04-04 22:00+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:00Z",
+        "actualTimeUtc": "2023-04-04 19:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "102-106",
+        "gate": "C17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 02:20+05:00",
+        "actualTimeLocal": "2023-04-05 02:00+05:00",
+        "scheduledTimeUtc": "2023-04-04 21:20Z",
+        "actualTimeUtc": "2023-04-04 21:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:20Z",
+          "local": "2023-04-05 02:20+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:00Z",
+          "local": "2023-04-05 02:00+05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U6 265",
+      "callSign": "SVR265",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73810",
+        "modeS": "152052",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:45+03:00",
+        "actualTimeLocal": "2023-04-04 23:55+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:45Z",
+        "actualTimeUtc": "2023-04-04 20:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:55Z",
+          "local": "2023-04-04 23:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:05+05:00",
+        "actualTimeLocal": "2023-04-05 03:50+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:05Z",
+        "actualTimeUtc": "2023-04-04 22:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:05Z",
+          "local": "2023-04-05 04:05+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 03:50+05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U6 271",
+      "callSign": "SVR271",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73804",
+        "modeS": "15204C",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:00+03:00",
+        "actualTimeLocal": "2023-04-04 21:00+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:00Z",
+        "actualTimeUtc": "2023-04-04 18:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "terminal": "1",
+        "gate": "D23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTDK",
+          "iata": "TJU",
+          "name": "Kulyab"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:20+05:00",
+        "scheduledTimeUtc": "2023-04-04 22:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:20Z",
+          "local": "2023-04-05 03:20+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "U6 2769",
+      "callSign": "SVR2769",
+      "status": "GateClosed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73838",
+        "modeS": "15206E",
+        "model": "Airbus A321-200 (sharklets)"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:00+03:00",
+        "actualTimeLocal": "2023-04-04 22:00+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:00Z",
+        "actualTimeUtc": "2023-04-04 19:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "102-106",
+        "gate": "D23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTDK",
+          "iata": "TJU",
+          "name": "Kulyab"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:20+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:20Z",
+          "local": "2023-04-05 04:20+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "U6 2969",
+      "callSign": "SVR2969",
+      "status": "Boarding",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73836",
+        "modeS": "15206C",
+        "model": "Airbus A321-200 (sharklets)"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:20+03:00",
+        "actualTimeLocal": "2023-04-04 23:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:20Z",
+        "actualTimeUtc": "2023-04-04 20:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:20Z",
+          "local": "2023-04-04 23:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTDD",
+          "iata": "DYU",
+          "name": "Dushanbe"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:10+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:10Z",
+          "local": "2023-04-05 05:10+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SZ 202",
+      "callSign": "SMR202",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VQ-BBL",
+        "modeS": "424455",
+        "model": "Boeing 737-900"
+      },
+      "airline": {
+        "name": "Somon Air",
+        "iata": "SZ",
+        "icao": "SMR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:45+03:00",
+        "actualTimeLocal": "2023-04-04 22:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:45Z",
+        "actualTimeUtc": "2023-04-04 19:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:45Z",
+          "local": "2023-04-04 22:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:45Z",
+          "local": "2023-04-04 22:45+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "39",
+        "gate": "D6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTAA",
+          "iata": "ASB",
+          "name": "Ashgabat"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:35+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:35Z",
+          "local": "2023-04-05 04:35+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "T5 704",
+      "callSign": "TUA704",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EZ-A015",
+        "modeS": "60183D",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Turkmenistan",
+        "iata": "T5",
+        "icao": "TUA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:30+03:00",
+        "actualTimeLocal": "2023-04-04 21:30+03:00",
+        "runwayTimeLocal": "2023-04-04 23:06+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:30Z",
+        "actualTimeUtc": "2023-04-04 18:30Z",
+        "runwayTimeUtc": "2023-04-04 20:06Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:30Z",
+          "local": "2023-04-04 21:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:30Z",
+          "local": "2023-04-04 21:30+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 20:06Z",
+          "local": "2023-04-04 23:06+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "79-80",
+        "gate": "D3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTNN",
+          "iata": "NCU",
+          "name": "Nukus"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:00+05:00",
+        "scheduledTimeUtc": "2023-04-04 22:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:00Z",
+          "local": "2023-04-05 03:00+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "HY 9626",
+      "callSign": "UZB9626",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UK32011",
+        "modeS": "507C3A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Uzbekistan Airways",
+        "iata": "HY",
+        "icao": "UZB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:00+03:00",
+        "actualTimeLocal": "2023-04-04 22:00+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:00Z",
+        "actualTimeUtc": "2023-04-04 19:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:00Z",
+          "local": "2023-04-04 22:00+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "D24",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTNU",
+          "iata": "UGC",
+          "name": "Urgench"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:35+05:00",
+        "scheduledTimeUtc": "2023-04-04 22:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:35Z",
+          "local": "2023-04-05 03:35+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 3245",
+      "callSign": "SBI3245",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73668",
+        "modeS": "151FC4",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:20+03:00",
+        "actualTimeLocal": "2023-04-04 21:20+03:00",
+        "runwayTimeLocal": "2023-04-04 21:55+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:20Z",
+        "actualTimeUtc": "2023-04-04 18:20Z",
+        "runwayTimeUtc": "2023-04-04 18:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:20Z",
+          "local": "2023-04-04 21:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:20Z",
+          "local": "2023-04-04 21:20+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 18:55Z",
+          "local": "2023-04-04 21:55+03:00"
+        },
+        "terminal": "1",
+        "gate": "D4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTSB",
+          "iata": "BHK",
+          "name": "Bukhara"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:15+05:00",
+        "scheduledTimeUtc": "2023-04-04 22:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:15Z",
+          "local": "2023-04-05 03:15+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "HY 9608",
+      "callSign": "UZB9608",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UK32015",
+        "modeS": "507C3E",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Uzbekistan Airways",
+        "iata": "HY",
+        "icao": "UZB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:00+03:00",
+        "actualTimeLocal": "2023-04-04 23:12+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:00Z",
+        "actualTimeUtc": "2023-04-04 20:12Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:00Z",
+          "local": "2023-04-04 23:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:12Z",
+          "local": "2023-04-04 23:12+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "79-82",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTTT",
+          "iata": "TAS",
+          "name": "Tashkent"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:45+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:45Z",
+          "local": "2023-04-05 04:45+05:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "HY 602",
+      "callSign": "UZB602",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UK78704",
+        "modeS": "507C54",
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Uzbekistan Airways",
+        "iata": "HY",
+        "icao": "UZB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:50+03:00",
+        "actualTimeLocal": "2023-04-04 21:08+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:50Z",
+        "actualTimeUtc": "2023-04-04 18:08Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:08Z",
+          "local": "2023-04-04 21:08+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTTT",
+          "iata": "TAS",
+          "name": "Tashkent"
+        },
+        "scheduledTimeLocal": "2023-04-05 02:45+05:00",
+        "scheduledTimeUtc": "2023-04-04 21:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:45Z",
+          "local": "2023-04-05 02:45+05:00"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "HY 614",
+      "callSign": "UZB614",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UK78702",
+        "modeS": "507C4D",
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Uzbekistan Airways",
+        "iata": "HY",
+        "icao": "UZB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:25+03:00",
+        "actualTimeLocal": "2023-04-04 20:34+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:25Z",
+        "actualTimeUtc": "2023-04-04 17:34Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:25Z",
+          "local": "2023-04-04 20:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:34Z",
+          "local": "2023-04-04 20:34+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UWWW",
+          "iata": "KUF",
+          "name": "Samara"
+        },
+        "scheduledTimeLocal": "2023-04-04 23:20+04:00",
+        "actualTimeLocal": "2023-04-04 22:57+04:00",
+        "scheduledTimeUtc": "2023-04-04 19:20Z",
+        "actualTimeUtc": "2023-04-04 18:57Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 23:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:57Z",
+          "local": "2023-04-04 22:57+04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "Y7 4211",
+      "callSign": "TYA4211",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73251",
+        "modeS": "151E23",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "NordStar",
+        "iata": "Y7",
+        "icao": "TYA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:25+03:00",
+        "actualTimeLocal": "2023-04-05 00:14+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:25Z",
+        "actualTimeUtc": "2023-04-04 21:14Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:25Z",
+          "local": "2023-04-04 23:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:14Z",
+          "local": "2023-04-05 00:14+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Osh"
+        },
+        "quality": []
+      },
+      "number": "S7 3259",
+      "callSign": "SBI3259",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73422",
+        "modeS": "151ECE",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:45+03:00",
+        "actualTimeLocal": "2023-04-05 00:16+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:45Z",
+        "actualTimeUtc": "2023-04-04 21:16Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:16Z",
+          "local": "2023-04-05 00:16+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Osh"
+        },
+        "quality": []
+      },
+      "number": "U6 2909",
+      "callSign": "SVR2909",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73840",
+        "modeS": "152070",
+        "model": "Airbus A321-200 (sharklets)"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "116-117",
+        "gate": "C15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Novy Urengoj"
+        },
+        "quality": []
+      },
+      "number": "UT 8090",
+      "status": "GateClosed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 03:10+03:00",
+        "actualTimeLocal": "2023-04-05 03:22+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:10Z",
+        "actualTimeUtc": "2023-04-05 00:22Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:10Z",
+          "local": "2023-04-05 03:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:22Z",
+          "local": "2023-04-05 03:22+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Antalya"
+        },
+        "quality": []
+      },
+      "number": "YC 9101",
+      "callSign": "LLM9101",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73693",
+        "modeS": "151FDD",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Yamal",
+        "iata": "YC",
+        "icao": "LLM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 04:15+03:00",
+        "actualTimeLocal": "2023-04-05 04:23+03:00",
+        "scheduledTimeUtc": "2023-04-05 01:15Z",
+        "actualTimeUtc": "2023-04-05 01:23Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:15Z",
+          "local": "2023-04-05 04:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 01:23Z",
+          "local": "2023-04-05 04:23+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "50-53",
+        "gate": "C14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Sabetta"
+        },
+        "quality": []
+      },
+      "number": "0E 9051",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321-200 (Sharklets)"
+      },
+      "airline": {
+        "name": "Severo-Zapad"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 06:00+03:00",
+        "actualTimeLocal": "2023-04-05 06:00+03:00",
+        "runwayTimeLocal": "2023-04-05 10:05+03:00",
+        "scheduledTimeUtc": "2023-04-05 03:00Z",
+        "actualTimeUtc": "2023-04-05 03:00Z",
+        "runwayTimeUtc": "2023-04-05 07:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:00Z",
+          "local": "2023-04-05 06:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 03:00Z",
+          "local": "2023-04-05 06:00+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-05 07:05Z",
+          "local": "2023-04-05 10:05+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "3-7",
+        "gate": "D16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "HESH",
+          "iata": "SSH",
+          "name": "Sharm el Sheikh"
+        },
+        "quality": []
+      },
+      "number": "MS 3093",
+      "callSign": "MSR3093",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-GDV",
+        "modeS": "01015E",
+        "model": "Airbus A330-300"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:20+03:00",
+        "actualTimeLocal": "2023-04-05 02:12+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:20Z",
+        "actualTimeUtc": "2023-04-04 23:12Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:20Z",
+          "local": "2023-04-05 02:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:12Z",
+          "local": "2023-04-05 02:12+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "54-57",
+        "gate": "D8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Antalya"
+        },
+        "quality": []
+      },
+      "number": "PC 1577",
+      "callSign": "PGT1577",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-NCD",
+        "modeS": "4BB864",
+        "model": "Airbus A321-200 (Sharklets)"
+      },
+      "airline": {
+        "name": "Pegasus",
+        "iata": "PC",
+        "icao": "PGT"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 03:15+03:00",
+        "actualTimeLocal": "2023-04-05 03:30+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:15Z",
+        "actualTimeUtc": "2023-04-05 00:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:15Z",
+          "local": "2023-04-05 03:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 03:30+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Salehard"
+        },
+        "quality": []
+      },
+      "number": "S7 4105",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 03:30+03:00",
+        "actualTimeLocal": "2023-04-05 03:40+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:30Z",
+        "actualTimeUtc": "2023-04-05 00:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 03:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:40Z",
+          "local": "2023-04-05 03:40+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Mirny"
+        },
+        "quality": []
+      },
+      "number": "S7 8001",
+      "callSign": "SBI8001",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73408",
+        "modeS": "151EC0",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:45+03:00",
+        "actualTimeLocal": "2023-04-05 01:07+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:45Z",
+        "actualTimeUtc": "2023-04-04 22:07Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:45Z",
+          "local": "2023-04-05 00:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:07Z",
+          "local": "2023-04-05 01:07+03:00"
+        },
+        "terminal": "1",
+        "gate": "D16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OKBK",
+          "iata": "KWI",
+          "name": "Kuwait City"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:50+03:00",
+        "scheduledTimeUtc": "2023-04-05 02:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:50Z",
+          "local": "2023-04-05 05:50+03:00"
+        },
+        "terminal": "5",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "J9 336",
+      "callSign": "JZR336",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "9K-CBJ",
+        "modeS": "706131",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Jazeera Airways",
+        "iata": "J9",
+        "icao": "JZR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:50+03:00",
+        "actualTimeLocal": "2023-04-05 02:51+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:50Z",
+        "actualTimeUtc": "2023-04-04 23:51Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:50Z",
+          "local": "2023-04-05 02:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:51Z",
+          "local": "2023-04-05 02:51+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "54-57",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "LTAI",
+          "iata": "AYT",
+          "name": "Antalya"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:35+03:00",
+        "actualTimeLocal": "2023-04-05 06:57+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:35Z",
+        "actualTimeUtc": "2023-04-05 03:57Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:35Z",
+          "local": "2023-04-05 07:35+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 03:57Z",
+          "local": "2023-04-05 06:57+03:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "105",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "PC 1581",
+      "callSign": "PGT1581",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-NCB",
+        "modeS": "4BB862",
+        "model": "Airbus A321-200 (Sharklets)"
+      },
+      "airline": {
+        "name": "Pegasus",
+        "iata": "PC",
+        "icao": "PGT"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:55+03:00",
+        "actualTimeLocal": "2023-04-05 03:24+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:55Z",
+        "actualTimeUtc": "2023-04-05 00:24Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:55Z",
+          "local": "2023-04-05 02:55+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:24Z",
+          "local": "2023-04-05 03:24+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "4-7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "HECA",
+          "iata": "CAI",
+          "name": "Cairo"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:20+02:00",
+        "scheduledTimeUtc": "2023-04-05 05:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 05:20Z",
+          "local": "2023-04-05 07:20+02:00"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "MS 728",
+      "callSign": "MSR728",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SU-GCO",
+        "modeS": "0100DD",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "EgyptAir",
+        "iata": "MS",
+        "icao": "MSR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:20+03:00",
+        "actualTimeLocal": "2023-04-05 02:57+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:20Z",
+        "actualTimeUtc": "2023-04-04 23:57Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:20Z",
+          "local": "2023-04-05 02:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:57Z",
+          "local": "2023-04-05 02:57+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "88",
+        "gate": "D9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMSJ",
+          "iata": "SHJ",
+          "name": "Sharjah"
+        },
+        "scheduledTimeLocal": "2023-04-05 09:00+04:00",
+        "scheduledTimeUtc": "2023-04-05 05:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 05:00Z",
+          "local": "2023-04-05 09:00+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "G9 959",
+      "callSign": "ABY959",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AOK",
+        "modeS": "896434",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "Air Arabia",
+        "iata": "G9",
+        "icao": "ABY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:05+03:00",
+        "actualTimeLocal": "2023-04-05 00:49+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:05Z",
+        "actualTimeUtc": "2023-04-04 21:49Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:05Z",
+          "local": "2023-04-05 00:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:49Z",
+          "local": "2023-04-05 00:49+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMSJ",
+          "iata": "SHJ",
+          "name": "Sharjah"
+        },
+        "scheduledTimeLocal": "2023-04-05 06:45+04:00",
+        "scheduledTimeUtc": "2023-04-05 02:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:45Z",
+          "local": "2023-04-05 06:45+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "G9 953",
+      "callSign": "ABY953",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-ANE",
+        "modeS": "896601",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "Air Arabia",
+        "iata": "G9",
+        "icao": "ABY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:25+03:00",
+        "actualTimeLocal": "2023-04-05 00:57+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:25Z",
+        "actualTimeUtc": "2023-04-04 21:57Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:25Z",
+          "local": "2023-04-05 00:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:57Z",
+          "local": "2023-04-05 00:57+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMSJ",
+          "iata": "SHJ",
+          "name": "Sharjah"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:05+04:00",
+        "scheduledTimeUtc": "2023-04-05 03:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:05Z",
+          "local": "2023-04-05 07:05+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "G9 957",
+      "callSign": "ABY957",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-AOE",
+        "modeS": "896411",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "Air Arabia",
+        "iata": "G9",
+        "icao": "ABY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:15+03:00",
+        "actualTimeLocal": "2023-04-05 00:22+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:15Z",
+        "actualTimeUtc": "2023-04-04 21:22Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:15Z",
+          "local": "2023-04-05 00:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:22Z",
+          "local": "2023-04-05 00:22+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UDYZ",
+          "iata": "EVN",
+          "name": "Yerevan"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:00+04:00",
+        "scheduledTimeUtc": "2023-04-05 01:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:00Z",
+          "local": "2023-04-05 05:00+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "G6 406",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "Gowair",
+        "iata": "G6",
+        "icao": "GWR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:00+03:00",
+        "actualTimeLocal": "2023-04-05 07:18+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:00Z",
+        "actualTimeUtc": "2023-04-05 04:18Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:00Z",
+          "local": "2023-04-05 07:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:18Z",
+          "local": "2023-04-05 07:18+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "120-122",
+        "gate": "D24",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UDYZ",
+          "iata": "EVN",
+          "name": "Yerevan"
+        },
+        "scheduledTimeLocal": "2023-04-05 11:50+04:00",
+        "scheduledTimeUtc": "2023-04-05 07:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 07:50Z",
+          "local": "2023-04-05 11:50+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "WZ 4321",
+      "callSign": "RWZ4321",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89138",
+        "modeS": "155C32",
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "Red Wings",
+        "iata": "WZ",
+        "icao": "RWZ"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:30+03:00",
+        "actualTimeLocal": "2023-04-05 07:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:30Z",
+        "actualTimeUtc": "2023-04-05 04:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:30Z",
+          "local": "2023-04-05 07:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:45Z",
+          "local": "2023-04-05 07:45+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 09:05+03:00",
+        "actualTimeLocal": "2023-04-05 08:58+03:00",
+        "runwayTimeLocal": "2023-04-05 08:55+03:00",
+        "scheduledTimeUtc": "2023-04-05 06:05Z",
+        "actualTimeUtc": "2023-04-05 05:58Z",
+        "runwayTimeUtc": "2023-04-05 05:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 06:05Z",
+          "local": "2023-04-05 09:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 05:58Z",
+          "local": "2023-04-05 08:58+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-05 05:55Z",
+          "local": "2023-04-05 08:55+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 1005",
+      "callSign": "SBI1005",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73182",
+        "modeS": "151DDE",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:30+03:00",
+        "actualTimeLocal": "2023-04-05 01:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:30Z",
+        "actualTimeUtc": "2023-04-04 22:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:30Z",
+          "local": "2023-04-05 01:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:30Z",
+          "local": "2023-04-05 01:30+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:05+03:00",
+        "actualTimeLocal": "2023-04-05 02:44+03:00",
+        "runwayTimeLocal": "2023-04-05 02:37+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:05Z",
+        "actualTimeUtc": "2023-04-04 23:44Z",
+        "runwayTimeUtc": "2023-04-04 23:37Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:05Z",
+          "local": "2023-04-05 03:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:44Z",
+          "local": "2023-04-05 02:44+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 23:37Z",
+          "local": "2023-04-05 02:37+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XT 1025",
+      "callSign": "CTU1025",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73681",
+        "modeS": "151FD1",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Globus",
+        "iata": "XT",
+        "icao": "CTU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:35+03:00",
+        "actualTimeLocal": "2023-04-05 00:02+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:35Z",
+        "actualTimeUtc": "2023-04-04 21:02Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:02Z",
+          "local": "2023-04-05 00:02+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNKL",
+          "iata": "KJA",
+          "name": "Krasnoyarsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:20+07:00",
+        "actualTimeLocal": "2023-04-05 08:17+07:00",
+        "scheduledTimeUtc": "2023-04-05 01:20Z",
+        "actualTimeUtc": "2023-04-05 01:17Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:20Z",
+          "local": "2023-04-05 08:20+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 01:17Z",
+          "local": "2023-04-05 08:17+07:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 2547",
+      "callSign": "SBI2547",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73436",
+        "modeS": "151EDC",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 03:15+03:00",
+        "actualTimeLocal": "2023-04-05 03:30+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:15Z",
+        "actualTimeUtc": "2023-04-05 00:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:15Z",
+          "local": "2023-04-05 03:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 03:30+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USDD",
+          "iata": "SLY",
+          "name": "Salekhard"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:00+05:00",
+        "scheduledTimeUtc": "2023-04-05 03:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:00Z",
+          "local": "2023-04-05 08:00+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "YC 32",
+      "callSign": "LLM32",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89071",
+        "modeS": "155BEF",
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "Yamal",
+        "iata": "YC",
+        "icao": "LLM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:50+03:00",
+        "actualTimeLocal": "2023-04-05 01:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:50Z",
+        "actualTimeUtc": "2023-04-04 22:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USMU",
+          "iata": "NUX",
+          "name": "Novyy Urengoy"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:20+05:00",
+        "actualTimeLocal": "2023-04-05 07:06+05:00",
+        "scheduledTimeUtc": "2023-04-05 02:20Z",
+        "actualTimeUtc": "2023-04-05 02:06Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:20Z",
+          "local": "2023-04-05 07:20+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 02:06Z",
+          "local": "2023-04-05 07:06+05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 2571",
+      "callSign": "SBI2571",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73183",
+        "modeS": "151DDF",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "116-117",
+        "gate": "C15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USMU",
+          "iata": "NUX",
+          "name": "Novyy Urengoy"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:00+05:00",
+        "actualTimeLocal": "2023-04-05 07:01+05:00",
+        "scheduledTimeUtc": "2023-04-05 02:00Z",
+        "actualTimeUtc": "2023-04-05 02:01Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:00Z",
+          "local": "2023-04-05 07:00+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 02:01Z",
+          "local": "2023-04-05 07:01+05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "YC 90",
+      "callSign": "LLM90",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89087",
+        "modeS": "155BFF",
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "Yamal",
+        "iata": "YC",
+        "icao": "LLM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:25+03:00",
+        "actualTimeLocal": "2023-04-05 01:25+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:25Z",
+        "actualTimeUtc": "2023-04-04 22:25Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:25Z",
+          "local": "2023-04-05 01:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:25Z",
+          "local": "2023-04-05 01:25+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USPP",
+          "iata": "PEE",
+          "name": "Perm"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:30+05:00",
+        "actualTimeLocal": "2023-04-05 05:11+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:30Z",
+        "actualTimeUtc": "2023-04-05 00:11Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 05:30+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:11Z",
+          "local": "2023-04-05 05:11+05:00"
+        },
+        "terminal": "A",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 1159",
+      "callSign": "SBI1159",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73406",
+        "modeS": "151EBE",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:50+03:00",
+        "actualTimeLocal": "2023-04-05 03:07+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:50Z",
+        "actualTimeUtc": "2023-04-05 00:07Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:50Z",
+          "local": "2023-04-05 02:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:07Z",
+          "local": "2023-04-05 03:07+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "116-117",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USRO",
+          "iata": "NOJ",
+          "name": "Noyabrsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:10+05:00",
+        "scheduledTimeUtc": "2023-04-05 03:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:10Z",
+          "local": "2023-04-05 08:10+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "YC 419",
+      "callSign": "LLM419",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89090",
+        "modeS": "155C02",
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "Yamal",
+        "iata": "YC",
+        "icao": "LLM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:05+03:00",
+        "actualTimeLocal": "2023-04-05 07:13+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:05Z",
+        "actualTimeUtc": "2023-04-05 04:13Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:05Z",
+          "local": "2023-04-05 07:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:13Z",
+          "local": "2023-04-05 07:13+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "URMM",
+          "iata": "MRV",
+          "name": "Mineralnyye Vody"
+        },
+        "scheduledTimeLocal": "2023-04-05 10:30+03:00",
+        "actualTimeLocal": "2023-04-05 10:04+03:00",
+        "scheduledTimeUtc": "2023-04-05 07:30Z",
+        "actualTimeUtc": "2023-04-05 07:04Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 07:30Z",
+          "local": "2023-04-05 10:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 07:04Z",
+          "local": "2023-04-05 10:04+03:00"
+        },
+        "terminal": "A",
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "S7 2165",
+      "callSign": "SBI2165",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73437",
+        "modeS": "151EDD",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:20+03:00",
+        "actualTimeLocal": "2023-04-05 01:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:20Z",
+        "actualTimeUtc": "2023-04-04 22:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:20Z",
+          "local": "2023-04-05 01:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:20Z",
+          "local": "2023-04-05 01:20+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USCC",
+          "iata": "CEK",
+          "name": "Chelyabinsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:50+05:00",
+        "actualTimeLocal": "2023-04-05 05:27+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:50Z",
+        "actualTimeUtc": "2023-04-05 00:27Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:50Z",
+          "local": "2023-04-05 05:50+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:27Z",
+          "local": "2023-04-05 05:27+05:00"
+        },
+        "baggageBelt": "2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XT 1141",
+      "callSign": "CTU1141",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73682",
+        "modeS": "151FD2",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Globus",
+        "iata": "XT",
+        "icao": "CTU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:00+03:00",
+        "actualTimeLocal": "2023-04-05 01:05+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:00Z",
+        "actualTimeUtc": "2023-04-04 22:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:00Z",
+          "local": "2023-04-05 01:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:05Z",
+          "local": "2023-04-05 01:05+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USUU",
+          "iata": "KRO",
+          "name": "Kurgan"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:50+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:50Z",
+          "local": "2023-04-05 05:50+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "Y7 1091",
+      "callSign": "TYA1091",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73259",
+        "modeS": "151E2B",
+        "model": "Boeing 737-33R"
+      },
+      "airline": {
+        "name": "NordStar",
+        "iata": "Y7",
+        "icao": "TYA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:20+03:00",
+        "actualTimeLocal": "2023-04-05 00:48+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:20Z",
+        "actualTimeUtc": "2023-04-04 21:48Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:20Z",
+          "local": "2023-04-05 00:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:48Z",
+          "local": "2023-04-05 00:48+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTDL",
+          "iata": "LBD",
+          "name": "Khudzhand"
+        },
+        "scheduledTimeLocal": "2023-04-05 06:15+05:00",
+        "scheduledTimeUtc": "2023-04-05 01:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:15Z",
+          "local": "2023-04-05 06:15+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "U6 8973",
+      "callSign": "SVR8973",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73797",
+        "modeS": "152045",
+        "model": "Airbus A321-100/200"
+      },
+      "airline": {
+        "name": "Ural",
+        "iata": "U6",
+        "icao": "SVR"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:15+03:00",
+        "actualTimeLocal": "2023-04-05 07:15+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:15Z",
+        "actualTimeUtc": "2023-04-05 04:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:15Z",
+          "local": "2023-04-05 07:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:15Z",
+          "local": "2023-04-05 07:15+03:00"
+        },
+        "terminal": "1",
+        "checkInDesk": "23-32",
+        "gate": "C9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UWPP",
+          "iata": "PEZ",
+          "name": "Penza"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:40+03:00",
+        "scheduledTimeUtc": "2023-04-05 05:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 05:40Z",
+          "local": "2023-04-05 08:40+03:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 1191",
+      "status": "CheckIn",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Embraer 170"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:05+03:00",
+        "actualTimeLocal": "2023-04-05 00:04+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:05Z",
+        "actualTimeUtc": "2023-04-04 21:04Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:05Z",
+          "local": "2023-04-05 00:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:04Z",
+          "local": "2023-04-05 00:04+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UWUU",
+          "iata": "UFA",
+          "name": "Ufa"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:20+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:20Z",
+          "local": "2023-04-05 04:20+05:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "S7 1131",
+      "callSign": "SBI1131",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73182",
+        "modeS": "151DDE",
+        "model": "Airbus A320-200"
+      },
+      "airline": {
+        "name": "S7",
+        "iata": "S7",
+        "icao": "SBI"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3630 @@
+{
+  "departures": [
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:50+03:00",
+        "actualTimeLocal": "2023-04-04 20:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:50Z",
+        "actualTimeUtc": "2023-04-04 17:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63,65-69",
+        "gate": "15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Surgut"
+        },
+        "quality": []
+      },
+      "number": "7R 4247",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "RusLine",
+        "iata": "7R",
+        "icao": "RLU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:30+03:00",
+        "actualTimeLocal": "2023-04-04 20:53+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:30Z",
+        "actualTimeUtc": "2023-04-04 17:53Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:30Z",
+          "local": "2023-04-04 20:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:53Z",
+          "local": "2023-04-04 20:53+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63,65-68",
+        "gate": "24",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Yerevan (Zvartnots Int.)"
+        },
+        "quality": []
+      },
+      "number": "UT 785",
+      "callSign": "UTA785",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73088",
+        "modeS": "151D80",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:00+03:00",
+        "actualTimeLocal": "2023-04-04 21:23+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:00Z",
+        "actualTimeUtc": "2023-04-04 18:23Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:23Z",
+          "local": "2023-04-04 21:23+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "79-80",
+        "gate": "16A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Neryungri (Chulman)"
+        },
+        "quality": []
+      },
+      "number": "6R 4787",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-700 (winglets)"
+      },
+      "airline": {
+        "name": "Alrosa",
+        "iata": "6R",
+        "icao": "DRU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:25+03:00",
+        "actualTimeLocal": "2023-04-04 21:25+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:25Z",
+        "actualTimeUtc": "2023-04-04 18:25Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:25Z",
+          "local": "2023-04-04 21:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:25Z",
+          "local": "2023-04-04 21:25+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63,66-69",
+        "gate": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Krasnoyarsk"
+        },
+        "quality": []
+      },
+      "number": "7R 4571",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "RusLine",
+        "iata": "7R",
+        "icao": "RLU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:20+03:00",
+        "actualTimeLocal": "2023-04-04 21:26+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:20Z",
+        "actualTimeUtc": "2023-04-04 18:26Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:20Z",
+          "local": "2023-04-04 21:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:26Z",
+          "local": "2023-04-04 21:26+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "52-53",
+        "gate": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Baku (Heydar Aliyev Int.)"
+        },
+        "quality": []
+      },
+      "number": "J2 810",
+      "callSign": "AHY810",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "4K-AZ05",
+        "modeS": "600805",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "AZAL Azerbaijan",
+        "iata": "J2",
+        "icao": "AHY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:35+03:00",
+        "actualTimeLocal": "2023-04-04 23:35+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:35Z",
+        "actualTimeUtc": "2023-04-04 20:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "96-99,101-102",
+        "gate": "25A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "U-Tapao (Rayong-Pattaya Intl)"
+        },
+        "quality": []
+      },
+      "number": "ZF 3711",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 767-300"
+      },
+      "airline": {
+        "name": "AZUR Air",
+        "iata": "ZF",
+        "icao": "KTK"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:45+03:00",
+        "actualTimeLocal": "2023-04-04 23:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:45Z",
+        "actualTimeUtc": "2023-04-04 20:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "122-123,125-127",
+        "gate": "17A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Ufa"
+        },
+        "quality": []
+      },
+      "number": "DP 435",
+      "callSign": "PBD435",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "modeS": "151E4F",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:30+03:00",
+        "actualTimeLocal": "2023-04-04 23:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:30Z",
+        "actualTimeUtc": "2023-04-04 20:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:30Z",
+          "local": "2023-04-04 23:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:30Z",
+          "local": "2023-04-04 23:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "139",
+        "gate": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Astana"
+        },
+        "quality": []
+      },
+      "number": "DV 814",
+      "callSign": "VSV814",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UP-B3724",
+        "modeS": "68326D",
+        "model": "Boeing 737-500"
+      },
+      "airline": {
+        "name": "SCAT",
+        "iata": "DV",
+        "icao": "VSV"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:40+03:00",
+        "actualTimeLocal": "2023-04-04 23:58+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:40Z",
+        "actualTimeUtc": "2023-04-04 20:58Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:40Z",
+          "local": "2023-04-04 23:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:58Z",
+          "local": "2023-04-04 23:58+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "106-109",
+        "gate": "30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Baghdad Int."
+        },
+        "quality": []
+      },
+      "number": "IA 242",
+      "callSign": "IAW242",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "YI-AST",
+        "modeS": "728674",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "I A W",
+        "iata": "IA",
+        "icao": "IAW"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:50+03:00",
+        "actualTimeLocal": "2023-04-04 21:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:50Z",
+        "actualTimeUtc": "2023-04-04 18:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:50Z",
+          "local": "2023-04-04 21:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:50Z",
+          "local": "2023-04-04 21:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "140",
+        "gate": "20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UAAA",
+          "iata": "ALA",
+          "name": "Almaty"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:10+06:00",
+        "actualTimeLocal": "2023-04-05 05:14+06:00",
+        "scheduledTimeUtc": "2023-04-04 23:10Z",
+        "actualTimeUtc": "2023-04-04 23:14Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:10Z",
+          "local": "2023-04-05 05:10+06:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:14Z",
+          "local": "2023-04-05 05:14+06:00"
+        },
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DV 816",
+      "callSign": "VSV816",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "UP-B3720",
+        "modeS": "683266",
+        "model": "Boeing 737 MAKS 8"
+      },
+      "airline": {
+        "name": "SCAT",
+        "iata": "DV",
+        "icao": "VSV"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:30+03:00",
+        "actualTimeLocal": "2023-04-04 21:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:30Z",
+        "actualTimeUtc": "2023-04-04 18:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:30Z",
+          "local": "2023-04-04 21:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:30Z",
+          "local": "2023-04-04 21:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "122-127,127A,12",
+        "gate": "15A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 22:50+03:00",
+        "actualTimeLocal": "2023-04-04 23:01+03:00",
+        "runwayTimeLocal": "2023-04-04 22:54+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:50Z",
+        "actualTimeUtc": "2023-04-04 20:01Z",
+        "runwayTimeUtc": "2023-04-04 19:54Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:50Z",
+          "local": "2023-04-04 22:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:01Z",
+          "local": "2023-04-04 23:01+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 19:54Z",
+          "local": "2023-04-04 22:54+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 213",
+      "callSign": "PBD213",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73230",
+        "modeS": "151E0E",
+        "model": "Boeing 737-800(sv)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:15+03:00",
+        "actualTimeLocal": "2023-04-04 20:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:15Z",
+        "actualTimeUtc": "2023-04-04 17:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 21:40+03:00",
+        "actualTimeLocal": "2023-04-04 21:52+03:00",
+        "runwayTimeLocal": "2023-04-04 21:47+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:40Z",
+        "actualTimeUtc": "2023-04-04 18:52Z",
+        "runwayTimeUtc": "2023-04-04 18:47Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:40Z",
+          "local": "2023-04-04 21:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:52Z",
+          "local": "2023-04-04 21:52+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 18:47Z",
+          "local": "2023-04-04 21:47+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 6036",
+      "callSign": "SDM6036",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89131",
+        "modeS": "155C2B",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:15+03:00",
+        "actualTimeLocal": "2023-04-04 20:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:15Z",
+        "actualTimeUtc": "2023-04-04 17:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 21:40+03:00",
+        "actualTimeLocal": "2023-04-04 21:52+03:00",
+        "runwayTimeLocal": "2023-04-04 21:47+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:40Z",
+        "actualTimeUtc": "2023-04-04 18:52Z",
+        "runwayTimeUtc": "2023-04-04 18:47Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:40Z",
+          "local": "2023-04-04 21:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:52Z",
+          "local": "2023-04-04 21:52+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 18:47Z",
+          "local": "2023-04-04 21:47+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FV 6036",
+      "callSign": "SDM6036",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89131",
+        "modeS": "155C2B",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Rossiya",
+        "iata": "FV",
+        "icao": "SDM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:30+03:00",
+        "actualTimeLocal": "2023-04-04 22:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:30Z",
+        "actualTimeUtc": "2023-04-04 19:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:30Z",
+          "local": "2023-04-04 22:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:30Z",
+          "local": "2023-04-04 22:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 23:50+03:00",
+        "actualTimeLocal": "2023-04-05 00:01+03:00",
+        "runwayTimeLocal": "2023-04-04 23:52+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:50Z",
+        "actualTimeUtc": "2023-04-04 21:01Z",
+        "runwayTimeUtc": "2023-04-04 20:52Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:50Z",
+          "local": "2023-04-04 23:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:01Z",
+          "local": "2023-04-05 00:01+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 20:52Z",
+          "local": "2023-04-04 23:52+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FV 6016",
+      "callSign": "SDM6016",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73206",
+        "modeS": "151DF6",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Rossiya",
+        "iata": "FV",
+        "icao": "SDM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:15+03:00",
+        "actualTimeLocal": "2023-04-04 20:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:15Z",
+        "actualTimeUtc": "2023-04-04 17:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:15Z",
+          "local": "2023-04-04 20:15+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "135",
+        "gate": "26A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UMMS",
+          "iata": "MSQ",
+          "name": "Minsk"
+        },
+        "scheduledTimeLocal": "2023-04-04 21:50+03:00",
+        "actualTimeLocal": "2023-04-04 21:43+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:50Z",
+        "actualTimeUtc": "2023-04-04 18:43Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:50Z",
+          "local": "2023-04-04 21:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:43Z",
+          "local": "2023-04-04 21:43+03:00"
+        },
+        "terminal": "1",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 967",
+      "callSign": "PBD967",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73249",
+        "modeS": "151E21",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:45+03:00",
+        "actualTimeLocal": "2023-04-04 21:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:45Z",
+        "actualTimeUtc": "2023-04-04 18:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:45Z",
+          "local": "2023-04-04 21:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:45Z",
+          "local": "2023-04-04 21:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 23:10+03:00",
+        "actualTimeLocal": "2023-04-04 23:15+03:00",
+        "runwayTimeLocal": "2023-04-04 23:07+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:10Z",
+        "actualTimeUtc": "2023-04-04 20:15Z",
+        "runwayTimeUtc": "2023-04-04 20:07Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:10Z",
+          "local": "2023-04-04 23:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:15Z",
+          "local": "2023-04-04 23:15+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 20:07Z",
+          "local": "2023-04-04 23:07+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FV 6024",
+      "callSign": "SDM7002",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89125",
+        "modeS": "155C25",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Rossiya",
+        "iata": "FV",
+        "icao": "SDM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:30+03:00",
+        "actualTimeLocal": "2023-04-04 22:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:30Z",
+        "actualTimeUtc": "2023-04-04 19:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:30Z",
+          "local": "2023-04-04 22:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:30Z",
+          "local": "2023-04-04 22:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 23:50+03:00",
+        "actualTimeLocal": "2023-04-05 00:01+03:00",
+        "runwayTimeLocal": "2023-04-04 23:52+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:50Z",
+        "actualTimeUtc": "2023-04-04 21:01Z",
+        "runwayTimeUtc": "2023-04-04 20:52Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:50Z",
+          "local": "2023-04-04 23:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:01Z",
+          "local": "2023-04-05 00:01+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 20:52Z",
+          "local": "2023-04-04 23:52+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 6016",
+      "callSign": "SDM6016",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73206",
+        "modeS": "151DF6",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:45+03:00",
+        "actualTimeLocal": "2023-04-04 21:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:45Z",
+        "actualTimeUtc": "2023-04-04 18:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:45Z",
+          "local": "2023-04-04 21:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:45Z",
+          "local": "2023-04-04 21:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-04 23:10+03:00",
+        "actualTimeLocal": "2023-04-04 23:15+03:00",
+        "runwayTimeLocal": "2023-04-04 23:07+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:10Z",
+        "actualTimeUtc": "2023-04-04 20:15Z",
+        "runwayTimeUtc": "2023-04-04 20:07Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:10Z",
+          "local": "2023-04-04 23:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:15Z",
+          "local": "2023-04-04 23:15+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 20:07Z",
+          "local": "2023-04-04 23:07+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 6024",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89125",
+        "modeS": "155C25",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:25+03:00",
+        "actualTimeLocal": "2023-04-04 21:25+03:00",
+        "runwayTimeLocal": "2023-04-04 21:41+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:25Z",
+        "actualTimeUtc": "2023-04-04 18:25Z",
+        "runwayTimeUtc": "2023-04-04 18:41Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:25Z",
+          "local": "2023-04-04 21:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:25Z",
+          "local": "2023-04-04 21:25+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 18:41Z",
+          "local": "2023-04-04 21:41+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63,66-69",
+        "gate": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNKL",
+          "iata": "KJA",
+          "name": "Krasnoyarsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 06:00+07:00",
+        "actualTimeLocal": "2023-04-05 05:46+07:00",
+        "scheduledTimeUtc": "2023-04-04 23:00Z",
+        "actualTimeUtc": "2023-04-04 22:46Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:00Z",
+          "local": "2023-04-05 06:00+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:46Z",
+          "local": "2023-04-05 05:46+07:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UT 571",
+      "callSign": "UTA571",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73496",
+        "modeS": "151F18",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:00+03:00",
+        "actualTimeLocal": "2023-04-04 21:00+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:00Z",
+        "actualTimeUtc": "2023-04-04 18:00Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "120-127,127A,12",
+        "gate": "13A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNNT",
+          "iata": "OVB",
+          "name": "Novosibirsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:10+07:00",
+        "actualTimeLocal": "2023-04-05 04:50+07:00",
+        "runwayTimeLocal": "2023-04-05 04:49+07:00",
+        "scheduledTimeUtc": "2023-04-04 22:10Z",
+        "actualTimeUtc": "2023-04-04 21:50Z",
+        "runwayTimeUtc": "2023-04-04 21:49Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 05:10+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:50Z",
+          "local": "2023-04-05 04:50+07:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 21:49Z",
+          "local": "2023-04-05 04:49+07:00"
+        },
+        "terminal": "C",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 419",
+      "callSign": "PBD419",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73243",
+        "modeS": "151E1B",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 21:00+03:00",
+        "actualTimeLocal": "2023-04-04 21:23+03:00",
+        "scheduledTimeUtc": "2023-04-04 18:00Z",
+        "actualTimeUtc": "2023-04-04 18:23Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 18:00Z",
+          "local": "2023-04-04 21:00+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 18:23Z",
+          "local": "2023-04-04 21:23+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "79-80",
+        "gate": "16A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UNNT",
+          "iata": "OVB",
+          "name": "Novosibirsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:00+07:00",
+        "actualTimeLocal": "2023-04-05 05:01+07:00",
+        "scheduledTimeUtc": "2023-04-04 22:00Z",
+        "actualTimeUtc": "2023-04-04 22:01Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:00Z",
+          "local": "2023-04-05 05:00+07:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:01Z",
+          "local": "2023-04-05 05:01+07:00"
+        },
+        "terminal": "C",
+        "baggageBelt": "3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "R3 787",
+      "callSign": "SYL787",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73263",
+        "modeS": "151E2F",
+        "model": "Boeing 737-76N"
+      },
+      "airline": {
+        "name": "Yakutia",
+        "iata": "R3",
+        "icao": "SYL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:50+03:00",
+        "actualTimeLocal": "2023-04-04 20:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:50Z",
+        "actualTimeUtc": "2023-04-04 17:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:50Z",
+          "local": "2023-04-04 20:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63,65-69",
+        "gate": "15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USRR",
+          "iata": "SGC",
+          "name": "Surgut"
+        },
+        "scheduledTimeLocal": "2023-04-05 02:10+05:00",
+        "scheduledTimeUtc": "2023-04-04 21:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:10Z",
+          "local": "2023-04-05 02:10+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UT 247",
+      "callSign": "UTA247",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73084",
+        "modeS": "151D7C",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:40+03:00",
+        "actualTimeLocal": "2023-04-04 23:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:40Z",
+        "actualTimeUtc": "2023-04-04 20:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:40Z",
+          "local": "2023-04-04 23:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:40Z",
+          "local": "2023-04-04 23:40+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "122-123,125-127",
+        "gate": "16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USRR",
+          "iata": "SGC",
+          "name": "Surgut"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:55+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:55Z",
+          "local": "2023-04-05 04:55+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "DP 259",
+      "callSign": "PBD259",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73228",
+        "modeS": "151E0C",
+        "model": "Boeing 737-800(sv)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:45+03:00",
+        "actualTimeLocal": "2023-04-04 23:45+03:00",
+        "runwayTimeLocal": "2023-04-05 00:02+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:45Z",
+        "actualTimeUtc": "2023-04-04 20:45Z",
+        "runwayTimeUtc": "2023-04-04 21:02Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:45Z",
+          "local": "2023-04-04 23:45+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 21:02Z",
+          "local": "2023-04-05 00:02+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-68",
+        "gate": "15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USNN",
+          "iata": "NJC",
+          "name": "Nizhnevartovsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:10+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:10Z",
+          "local": "2023-04-05 05:10+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UT 341",
+      "callSign": "UTA341",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73036",
+        "modeS": "151D4C",
+        "model": "Boeing 737-500 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:30+03:00",
+        "actualTimeLocal": "2023-04-04 23:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:30Z",
+        "actualTimeUtc": "2023-04-04 20:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:30Z",
+          "local": "2023-04-04 23:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:30Z",
+          "local": "2023-04-04 23:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "122-124,126-127",
+        "gate": "16A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USPP",
+          "iata": "PEE",
+          "name": "Perm"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:35+05:00",
+        "actualTimeLocal": "2023-04-05 03:21+05:00",
+        "scheduledTimeUtc": "2023-04-04 22:35Z",
+        "actualTimeUtc": "2023-04-04 22:21Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:35Z",
+          "local": "2023-04-05 03:35+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:21Z",
+          "local": "2023-04-05 03:21+05:00"
+        },
+        "terminal": "A",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 433",
+      "callSign": "PBD433",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73306",
+        "modeS": "151E5A",
+        "model": "Boeing 737-800(sv)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:20+03:00",
+        "actualTimeLocal": "2023-04-04 23:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:20Z",
+        "actualTimeUtc": "2023-04-04 20:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:20Z",
+          "local": "2023-04-04 23:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:20Z",
+          "local": "2023-04-04 23:20+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "122-124,126-127",
+        "gate": "13A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USSS",
+          "iata": "SVX",
+          "name": "Ekaterinburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 03:45+05:00",
+        "actualTimeLocal": "2023-04-05 04:01+05:00",
+        "scheduledTimeUtc": "2023-04-04 22:45Z",
+        "actualTimeUtc": "2023-04-04 23:01Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:45Z",
+          "local": "2023-04-05 03:45+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:01Z",
+          "local": "2023-04-05 04:01+05:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 403",
+      "callSign": "PBD403",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73298",
+        "modeS": "151E52",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:30+03:00",
+        "actualTimeLocal": "2023-04-04 20:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:30Z",
+        "actualTimeUtc": "2023-04-04 17:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:30Z",
+          "local": "2023-04-04 20:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:30Z",
+          "local": "2023-04-04 20:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "113",
+        "gate": "29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTSS",
+          "iata": "SKD",
+          "name": "Samarkand"
+        },
+        "scheduledTimeLocal": "2023-04-05 02:30+05:00",
+        "scheduledTimeUtc": "2023-04-04 21:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:30Z",
+          "local": "2023-04-05 02:30+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "HH 756",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Taban",
+        "iata": "HH",
+        "icao": "TBN"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 23:35+03:00",
+        "actualTimeLocal": "2023-04-04 23:35+03:00",
+        "scheduledTimeUtc": "2023-04-04 20:35Z",
+        "actualTimeUtc": "2023-04-04 20:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 20:35Z",
+          "local": "2023-04-04 23:35+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "59",
+        "gate": "27A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTNU",
+          "iata": "UGC",
+          "name": "Urgench"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:10+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:10Z",
+          "local": "2023-04-05 05:10+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "A4 7059",
+      "callSign": "AZO7059",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89085",
+        "modeS": "155BFD",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Azimuth",
+        "iata": "A4",
+        "icao": "AZO"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 22:20+03:00",
+        "actualTimeLocal": "2023-04-04 22:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 19:20Z",
+        "actualTimeUtc": "2023-04-04 19:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 22:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 19:20Z",
+          "local": "2023-04-04 22:20+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "72",
+        "gate": "21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTDD",
+          "iata": "DYU",
+          "name": "Dushanbe"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:30+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:30Z",
+          "local": "2023-04-05 04:30+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UT 803",
+      "callSign": "UTA803",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73083",
+        "modeS": "151D7B",
+        "model": "Boeing 767-200"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-04 20:30+03:00",
+        "actualTimeLocal": "2023-04-04 20:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 17:30Z",
+        "actualTimeUtc": "2023-04-04 17:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 17:30Z",
+          "local": "2023-04-04 20:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 17:30Z",
+          "local": "2023-04-04 20:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "58-59",
+        "gate": "26",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UTFF",
+          "iata": "FEG",
+          "name": "Fergana"
+        },
+        "scheduledTimeLocal": "2023-04-05 02:50+05:00",
+        "scheduledTimeUtc": "2023-04-04 21:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:50Z",
+          "local": "2023-04-05 02:50+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "A4 9197",
+      "callSign": "AZO9197",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89189",
+        "modeS": "155C65",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Azimuth",
+        "iata": "A4",
+        "icao": "AZO"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:50+03:00",
+        "actualTimeLocal": "2023-04-05 00:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:50Z",
+        "actualTimeUtc": "2023-04-04 21:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:50Z",
+          "local": "2023-04-05 00:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:50Z",
+          "local": "2023-04-05 00:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "113-115",
+        "gate": "29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Dubai (International)"
+        },
+        "quality": []
+      },
+      "number": "EK 2323",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:10+03:00",
+        "actualTimeLocal": "2023-04-05 00:27+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:10Z",
+        "actualTimeUtc": "2023-04-04 21:27Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:10Z",
+          "local": "2023-04-05 00:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:27Z",
+          "local": "2023-04-05 00:27+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "78",
+        "gate": "24",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Baghdad Int."
+        },
+        "quality": []
+      },
+      "number": "UT 9029",
+      "callSign": "UTA9029",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73085",
+        "modeS": "151D7D",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-64",
+        "gate": "13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Ufa"
+        },
+        "quality": []
+      },
+      "number": "7R 4363",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-500 (winglets)"
+      },
+      "airline": {
+        "name": "RusLine",
+        "iata": "7R",
+        "icao": "RLU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "71,73-74",
+        "gate": "25",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Antalya"
+        },
+        "quality": []
+      },
+      "number": "TK 3957",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:30+03:00",
+        "actualTimeLocal": "2023-04-05 01:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:30Z",
+        "actualTimeUtc": "2023-04-04 22:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:30Z",
+          "local": "2023-04-05 01:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:30Z",
+          "local": "2023-04-05 01:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "82-83,85",
+        "gate": "23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Istanbul(Istanbul New)"
+        },
+        "quality": []
+      },
+      "number": "TK 412",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330-200"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:50+03:00",
+        "actualTimeLocal": "2023-04-05 01:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:50Z",
+        "actualTimeUtc": "2023-04-04 22:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "114-115",
+        "gate": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Dubai (International)"
+        },
+        "quality": []
+      },
+      "number": "EK 2253",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:25+03:00",
+        "actualTimeLocal": "2023-04-05 02:25+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:25Z",
+        "actualTimeUtc": "2023-04-04 23:25Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:25Z",
+          "local": "2023-04-05 02:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:25Z",
+          "local": "2023-04-05 02:25+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "82-83,85",
+        "gate": "24",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Antalya"
+        },
+        "quality": []
+      },
+      "number": "TK 3951",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 02:05+03:00",
+        "actualTimeLocal": "2023-04-05 02:05+03:00",
+        "scheduledTimeUtc": "2023-04-04 23:05Z",
+        "actualTimeUtc": "2023-04-04 23:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:05Z",
+          "local": "2023-04-05 02:05+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 23:05Z",
+          "local": "2023-04-05 02:05+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "82-83,85",
+        "gate": "22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Antalya"
+        },
+        "quality": []
+      },
+      "number": "TK 4002",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 05:45+03:00",
+        "actualTimeLocal": "2023-04-05 05:45+03:00",
+        "runwayTimeLocal": "2023-04-05 06:06+03:00",
+        "scheduledTimeUtc": "2023-04-05 02:45Z",
+        "actualTimeUtc": "2023-04-05 02:45Z",
+        "runwayTimeUtc": "2023-04-05 03:06Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:45Z",
+          "local": "2023-04-05 05:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 02:45Z",
+          "local": "2023-04-05 05:45+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-05 03:06Z",
+          "local": "2023-04-05 06:06+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "71,73",
+        "gate": "26",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Ganja"
+        },
+        "quality": []
+      },
+      "number": "UT 743",
+      "callSign": "UTA743",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73043",
+        "modeS": "151D53",
+        "model": "Boeing 737-500"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 04:45+03:00",
+        "actualTimeLocal": "2023-04-05 04:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 01:45Z",
+        "actualTimeUtc": "2023-04-05 01:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:45Z",
+          "local": "2023-04-05 04:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 01:45Z",
+          "local": "2023-04-05 04:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "115",
+        "gate": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Dubai (International)"
+        },
+        "quality": []
+      },
+      "number": "EK 2467",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:30+03:00",
+        "actualTimeLocal": "2023-04-05 07:30+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:30Z",
+        "actualTimeUtc": "2023-04-05 04:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:30Z",
+          "local": "2023-04-05 07:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:30Z",
+          "local": "2023-04-05 07:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-67",
+        "gate": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Sochi"
+        },
+        "quality": []
+      },
+      "number": "UT 267",
+      "callSign": "UTA267",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73494",
+        "modeS": "151F16",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 06:30+03:00",
+        "actualTimeLocal": "2023-04-05 06:30+03:00",
+        "scheduledTimeUtc": "2023-04-05 03:30Z",
+        "actualTimeUtc": "2023-04-05 03:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:30Z",
+          "local": "2023-04-05 06:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 03:30Z",
+          "local": "2023-04-05 06:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "82-84",
+        "gate": "31A,31",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Istanbul(Istanbul New)"
+        },
+        "quality": []
+      },
+      "number": "TK 420",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A330-200"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:30+03:00",
+        "actualTimeLocal": "2023-04-05 07:30+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:30Z",
+        "actualTimeUtc": "2023-04-05 04:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:30Z",
+          "local": "2023-04-05 07:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:30Z",
+          "local": "2023-04-05 07:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-67",
+        "gate": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Sochi"
+        },
+        "quality": []
+      },
+      "number": "6R 4267",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Alrosa",
+        "iata": "6R",
+        "icao": "DRU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:10+03:00",
+        "actualTimeLocal": "2023-04-05 07:10+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:10Z",
+        "actualTimeUtc": "2023-04-05 04:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:10Z",
+          "local": "2023-04-05 07:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:10Z",
+          "local": "2023-04-05 07:10+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "115",
+        "gate": "29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "name": "Dubai (International)"
+        },
+        "quality": []
+      },
+      "number": "EK 2145",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737 MAKS 8"
+      },
+      "airline": {
+        "name": "Emirates",
+        "iata": "EK",
+        "icao": "UAE"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:50+03:00",
+        "actualTimeLocal": "2023-04-05 00:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:50Z",
+        "actualTimeUtc": "2023-04-04 21:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:50Z",
+          "local": "2023-04-05 00:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:50Z",
+          "local": "2023-04-05 00:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "113-115",
+        "gate": "29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai City"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:15+04:00",
+        "actualTimeLocal": "2023-04-05 07:26+04:00",
+        "scheduledTimeUtc": "2023-04-05 03:15Z",
+        "actualTimeUtc": "2023-04-05 03:26Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:15Z",
+          "local": "2023-04-05 07:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 03:26Z",
+          "local": "2023-04-05 07:26+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 988",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 04:45+03:00",
+        "actualTimeLocal": "2023-04-05 04:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 01:45Z",
+        "actualTimeUtc": "2023-04-05 01:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:45Z",
+          "local": "2023-04-05 04:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 01:45Z",
+          "local": "2023-04-05 04:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "115",
+        "gate": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai City"
+        },
+        "scheduledTimeLocal": "2023-04-05 11:10+04:00",
+        "actualTimeLocal": "2023-04-05 11:27+04:00",
+        "scheduledTimeUtc": "2023-04-05 07:10Z",
+        "actualTimeUtc": "2023-04-05 07:27Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 07:10Z",
+          "local": "2023-04-05 11:10+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 07:27Z",
+          "local": "2023-04-05 11:27+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 968",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 03:30+03:00",
+        "actualTimeLocal": "2023-04-05 03:30+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:30Z",
+        "actualTimeUtc": "2023-04-05 00:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 03:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:30Z",
+          "local": "2023-04-05 03:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "97,100-102",
+        "gate": "19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMDW",
+          "iata": "DWC",
+          "name": "Jebel Ali"
+        },
+        "scheduledTimeLocal": "2023-04-05 10:10+04:00",
+        "scheduledTimeUtc": "2023-04-05 06:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 06:10Z",
+          "local": "2023-04-05 10:10+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "ZF 3507",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 767-300"
+      },
+      "airline": {
+        "name": "AZUR Air",
+        "iata": "ZF",
+        "icao": "KTK"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:50+03:00",
+        "actualTimeLocal": "2023-04-05 01:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:50Z",
+        "actualTimeUtc": "2023-04-04 22:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "114-115",
+        "gate": "27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai City"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:20+04:00",
+        "actualTimeLocal": "2023-04-05 08:23+04:00",
+        "scheduledTimeUtc": "2023-04-05 04:20Z",
+        "actualTimeUtc": "2023-04-05 04:23Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:20Z",
+          "local": "2023-04-05 08:20+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:23Z",
+          "local": "2023-04-05 08:23+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 966",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:10+03:00",
+        "actualTimeLocal": "2023-04-05 07:10+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:10Z",
+        "actualTimeUtc": "2023-04-05 04:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:10Z",
+          "local": "2023-04-05 07:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:10Z",
+          "local": "2023-04-05 07:10+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "115",
+        "gate": "29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "OMDB",
+          "iata": "DXB",
+          "name": "Dubai City"
+        },
+        "scheduledTimeLocal": "2023-04-05 13:35+04:00",
+        "actualTimeLocal": "2023-04-05 13:48+04:00",
+        "scheduledTimeUtc": "2023-04-05 09:35Z",
+        "actualTimeUtc": "2023-04-05 09:48Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 09:35Z",
+          "local": "2023-04-05 13:35+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 09:48Z",
+          "local": "2023-04-05 13:48+04:00"
+        },
+        "terminal": "2",
+        "baggageBelt": "6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FZ 970",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737 MAKS 8"
+      },
+      "airline": {
+        "name": "flydubai",
+        "iata": "FZ",
+        "icao": "FDB"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:45+03:00",
+        "actualTimeLocal": "2023-04-05 01:45+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:45Z",
+        "actualTimeUtc": "2023-04-04 22:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:45Z",
+          "local": "2023-04-05 01:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:45Z",
+          "local": "2023-04-05 01:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "116",
+        "gate": "28",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UDYZ",
+          "iata": "EVN",
+          "name": "Yerevan"
+        },
+        "scheduledTimeLocal": "2023-04-05 06:15+04:00",
+        "scheduledTimeUtc": "2023-04-05 02:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:15Z",
+          "local": "2023-04-05 06:15+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "3F 324",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-500"
+      },
+      "airline": {
+        "name": "Pacific Airways",
+        "iata": "3F"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 03:45+03:00",
+        "actualTimeLocal": "2023-04-05 03:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 00:45Z",
+        "actualTimeUtc": "2023-04-05 00:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:45Z",
+          "local": "2023-04-05 03:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:45Z",
+          "local": "2023-04-05 03:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "116-120",
+        "gate": "28",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UDYZ",
+          "iata": "EVN",
+          "name": "Yerevan"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:15+04:00",
+        "scheduledTimeUtc": "2023-04-05 04:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:15Z",
+          "local": "2023-04-05 08:15+04:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "3F 326",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-300"
+      },
+      "airline": {
+        "name": "Pacific Airways",
+        "iata": "3F"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 06:45+03:00",
+        "actualTimeLocal": "2023-04-05 06:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 03:45Z",
+        "actualTimeUtc": "2023-04-05 03:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:45Z",
+          "local": "2023-04-05 06:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 03:45Z",
+          "local": "2023-04-05 06:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:10+03:00",
+        "actualTimeLocal": "2023-04-05 08:09+03:00",
+        "runwayTimeLocal": "2023-04-05 08:03+03:00",
+        "scheduledTimeUtc": "2023-04-05 05:10Z",
+        "actualTimeUtc": "2023-04-05 05:09Z",
+        "runwayTimeUtc": "2023-04-05 05:03Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 05:10Z",
+          "local": "2023-04-05 08:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 05:09Z",
+          "local": "2023-04-05 08:09+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-05 05:03Z",
+          "local": "2023-04-05 08:03+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FV 6022",
+      "callSign": "SDM6022",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89131",
+        "modeS": "155C2B",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Rossiya",
+        "iata": "FV",
+        "icao": "SDM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 06:45+03:00",
+        "actualTimeLocal": "2023-04-05 06:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 03:45Z",
+        "actualTimeUtc": "2023-04-05 03:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 03:45Z",
+          "local": "2023-04-05 06:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 03:45Z",
+          "local": "2023-04-05 06:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103-104",
+        "gate": "10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 08:10+03:00",
+        "actualTimeLocal": "2023-04-05 08:09+03:00",
+        "runwayTimeLocal": "2023-04-05 08:03+03:00",
+        "scheduledTimeUtc": "2023-04-05 05:10Z",
+        "actualTimeUtc": "2023-04-05 05:09Z",
+        "runwayTimeUtc": "2023-04-05 05:03Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 05:10Z",
+          "local": "2023-04-05 08:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 05:09Z",
+          "local": "2023-04-05 08:09+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-05 05:03Z",
+          "local": "2023-04-05 08:03+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 6022",
+      "callSign": "SDM6022",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89131",
+        "modeS": "155C2B",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:15+03:00",
+        "actualTimeLocal": "2023-04-05 00:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:15Z",
+        "actualTimeUtc": "2023-04-04 21:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:15Z",
+          "local": "2023-04-05 00:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:15Z",
+          "local": "2023-04-05 00:15+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103",
+        "gate": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:47+03:00",
+        "runwayTimeLocal": "2023-04-05 01:35+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:47Z",
+        "runwayTimeUtc": "2023-04-04 22:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:47Z",
+          "local": "2023-04-05 01:47+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 22:35Z",
+          "local": "2023-04-05 01:35+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SU 6034",
+      "callSign": "SDM6034",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89102",
+        "modeS": "155C0E",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Aeroflot",
+        "iata": "SU",
+        "icao": "AFL"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:15+03:00",
+        "actualTimeLocal": "2023-04-05 00:15+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:15Z",
+        "actualTimeUtc": "2023-04-04 21:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:15Z",
+          "local": "2023-04-05 00:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:15Z",
+          "local": "2023-04-05 00:15+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "103",
+        "gate": "12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "ULLI",
+          "iata": "LED",
+          "name": "Saint-Petersburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:47+03:00",
+        "runwayTimeLocal": "2023-04-05 01:35+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:47Z",
+        "runwayTimeUtc": "2023-04-04 22:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:47Z",
+          "local": "2023-04-05 01:47+03:00"
+        },
+        "runwayTime": {
+          "utc": "2023-04-04 22:35Z",
+          "local": "2023-04-05 01:35+03:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FV 6034",
+      "callSign": "SDM6034",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89102",
+        "modeS": "155C0E",
+        "model": "Sukhoi Superjet 100-95"
+      },
+      "airline": {
+        "name": "Rossiya",
+        "iata": "FV",
+        "icao": "SDM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:15+03:00",
+        "actualTimeLocal": "2023-04-05 07:15+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:15Z",
+        "actualTimeUtc": "2023-04-05 04:15Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:15Z",
+          "local": "2023-04-05 07:15+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:15Z",
+          "local": "2023-04-05 07:15+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "118-127,127A,12",
+        "gate": "14A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "URMO",
+          "iata": "OGZ",
+          "name": "Vladikavkaz"
+        },
+        "scheduledTimeLocal": "2023-04-05 10:25+03:00",
+        "actualTimeLocal": "2023-04-05 10:11+03:00",
+        "scheduledTimeUtc": "2023-04-05 07:25Z",
+        "actualTimeUtc": "2023-04-05 07:11Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 07:25Z",
+          "local": "2023-04-05 10:25+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 07:11Z",
+          "local": "2023-04-05 10:11+03:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 195",
+      "callSign": "PBD195",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73231",
+        "modeS": "151E0F",
+        "model": "Boeing 737-800(sv)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 04:20+03:00",
+        "actualTimeLocal": "2023-04-05 04:20+03:00",
+        "scheduledTimeUtc": "2023-04-05 01:20Z",
+        "actualTimeUtc": "2023-04-05 01:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 01:20Z",
+          "local": "2023-04-05 04:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 01:20Z",
+          "local": "2023-04-05 04:20+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "58-59",
+        "gate": "10A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USRO",
+          "iata": "NOJ",
+          "name": "Noyabrsk"
+        },
+        "scheduledTimeLocal": "2023-04-05 09:40+05:00",
+        "scheduledTimeUtc": "2023-04-05 04:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:40Z",
+          "local": "2023-04-05 09:40+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "4G 291",
+      "callSign": "GZP291",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-89020",
+        "modeS": "155BBC",
+        "model": "Sukhoi Superjet 100"
+      },
+      "airline": {
+        "name": "Gazpromavia",
+        "iata": "4G",
+        "icao": "GZP"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:20+03:00",
+        "actualTimeLocal": "2023-04-05 00:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:20Z",
+        "actualTimeUtc": "2023-04-04 21:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:20Z",
+          "local": "2023-04-05 00:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:20Z",
+          "local": "2023-04-05 00:20+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-65,67-68",
+        "gate": "11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USRR",
+          "iata": "SGC",
+          "name": "Surgut"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:40+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:40Z",
+          "local": "2023-04-05 05:40+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UT 253",
+      "callSign": "UTA253",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73086",
+        "modeS": "151D7E",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:50+03:00",
+        "actualTimeLocal": "2023-04-05 01:50+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:50Z",
+        "actualTimeUtc": "2023-04-04 22:50Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:50Z",
+          "local": "2023-04-05 01:50+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61",
+        "gate": "14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USRK",
+          "iata": "KGP",
+          "name": "Kogalym"
+        },
+        "scheduledTimeLocal": "2023-04-05 07:10+05:00",
+        "scheduledTimeUtc": "2023-04-05 02:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 02:10Z",
+          "local": "2023-04-05 07:10+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UT 445",
+      "callSign": "UTA445",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73039",
+        "modeS": "151D4F",
+        "model": "Boeing 737-500"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:10+03:00",
+        "actualTimeLocal": "2023-04-05 01:10+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:10Z",
+        "actualTimeUtc": "2023-04-04 22:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 01:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 01:10+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-66",
+        "gate": "17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USTR",
+          "iata": "TJM",
+          "name": "Tyumen"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:55+05:00",
+        "actualTimeLocal": "2023-04-05 05:55+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:55Z",
+        "actualTimeUtc": "2023-04-05 00:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:55Z",
+          "local": "2023-04-05 05:55+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:55Z",
+          "local": "2023-04-05 05:55+05:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "UT 453",
+      "callSign": "UTA453",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73493",
+        "modeS": "151F15",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:10+03:00",
+        "actualTimeLocal": "2023-04-05 01:10+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:10Z",
+        "actualTimeUtc": "2023-04-04 22:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 01:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 01:10+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-66",
+        "gate": "17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USTR",
+          "iata": "TJM",
+          "name": "Tyumen"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:55+05:00",
+        "actualTimeLocal": "2023-04-05 05:55+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:55Z",
+        "actualTimeUtc": "2023-04-05 00:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:55Z",
+          "local": "2023-04-05 05:55+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:55Z",
+          "local": "2023-04-05 05:55+05:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "YC 2453",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Yamal",
+        "iata": "YC",
+        "icao": "LLM"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:10+03:00",
+        "actualTimeLocal": "2023-04-05 01:10+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:10Z",
+        "actualTimeUtc": "2023-04-04 22:10Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 01:10+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:10Z",
+          "local": "2023-04-05 01:10+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-66",
+        "gate": "17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USTR",
+          "iata": "TJM",
+          "name": "Tyumen"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:55+05:00",
+        "actualTimeLocal": "2023-04-05 05:55+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:55Z",
+        "actualTimeUtc": "2023-04-05 00:55Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:55Z",
+          "local": "2023-04-05 05:55+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:55Z",
+          "local": "2023-04-05 05:55+05:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "7R 4453",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "RusLine",
+        "iata": "7R",
+        "icao": "RLU"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:40+03:00",
+        "actualTimeLocal": "2023-04-05 00:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:40Z",
+        "actualTimeUtc": "2023-04-04 21:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:40Z",
+          "local": "2023-04-05 00:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:40Z",
+          "local": "2023-04-05 00:40+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "125,127,127A,12",
+        "gate": "16A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "USTR",
+          "iata": "TJM",
+          "name": "Tyumen"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:25+05:00",
+        "actualTimeLocal": "2023-04-05 05:25+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:25Z",
+        "actualTimeUtc": "2023-04-05 00:25Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:25Z",
+          "local": "2023-04-05 05:25+05:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 00:25Z",
+          "local": "2023-04-05 05:25+05:00"
+        },
+        "baggageBelt": "1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 449",
+      "callSign": "PBD449",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73245",
+        "modeS": "151E1D",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 07:45+03:00",
+        "actualTimeLocal": "2023-04-05 07:45+03:00",
+        "scheduledTimeUtc": "2023-04-05 04:45Z",
+        "actualTimeUtc": "2023-04-05 04:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 04:45Z",
+          "local": "2023-04-05 07:45+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 04:45Z",
+          "local": "2023-04-05 07:45+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "118-127,127A,12",
+        "gate": "13A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UWSG",
+          "iata": "GSV",
+          "name": "Saratov"
+        },
+        "scheduledTimeLocal": "2023-04-05 10:15+04:00",
+        "actualTimeLocal": "2023-04-05 10:05+04:00",
+        "scheduledTimeUtc": "2023-04-05 06:15Z",
+        "actualTimeUtc": "2023-04-05 06:05Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 06:15Z",
+          "local": "2023-04-05 10:15+04:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-05 06:05Z",
+          "local": "2023-04-05 10:05+04:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DP 467",
+      "callSign": "PBD467",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73243",
+        "modeS": "151E1B",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 01:40+03:00",
+        "actualTimeLocal": "2023-04-05 01:40+03:00",
+        "scheduledTimeUtc": "2023-04-04 22:40Z",
+        "actualTimeUtc": "2023-04-04 22:40Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 22:40Z",
+          "local": "2023-04-05 01:40+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "61,63-64",
+        "gate": "13",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UWUU",
+          "iata": "UFA",
+          "name": "Ufa"
+        },
+        "scheduledTimeLocal": "2023-04-05 05:45+05:00",
+        "scheduledTimeUtc": "2023-04-05 00:45Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 00:45Z",
+          "local": "2023-04-05 05:45+05:00"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "UT 363",
+      "callSign": "UTA363",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73063",
+        "modeS": "151D67",
+        "model": "Boeing 737-500 (winglets)"
+      },
+      "airline": {
+        "name": "UTAir",
+        "iata": "UT",
+        "icao": "UTA"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:30+03:00",
+        "actualTimeLocal": "2023-04-05 00:30+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:30Z",
+        "actualTimeUtc": "2023-04-04 21:30Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:30Z",
+          "local": "2023-04-05 00:30+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:30Z",
+          "local": "2023-04-05 00:30+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "100-102",
+        "gate": "18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "VRMM",
+          "iata": "MLE",
+          "name": "Malé"
+        },
+        "scheduledTimeLocal": "2023-04-05 11:20+05:00",
+        "scheduledTimeUtc": "2023-04-05 06:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-05 06:20Z",
+          "local": "2023-04-05 11:20+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "ZF 701",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 767-300 (winglets)"
+      },
+      "airline": {
+        "name": "AZUR Air",
+        "iata": "ZF",
+        "icao": "KTK"
+      }
+    },
+    {
+      "departure": {
+        "scheduledTimeLocal": "2023-04-05 00:20+03:00",
+        "actualTimeLocal": "2023-04-05 00:20+03:00",
+        "scheduledTimeUtc": "2023-04-04 21:20Z",
+        "actualTimeUtc": "2023-04-04 21:20Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 21:20Z",
+          "local": "2023-04-05 00:20+03:00"
+        },
+        "revisedTime": {
+          "utc": "2023-04-04 21:20Z",
+          "local": "2023-04-05 00:20+03:00"
+        },
+        "terminal": "A",
+        "checkInDesk": "125-127,127A,12",
+        "gate": "15A",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "arrival": {
+        "airport": {
+          "icao": "UWOO",
+          "iata": "REN",
+          "name": "Orenburg"
+        },
+        "scheduledTimeLocal": "2023-04-05 04:35+05:00",
+        "scheduledTimeUtc": "2023-04-04 23:35Z",
+        "scheduledTime": {
+          "utc": "2023-04-04 23:35Z",
+          "local": "2023-04-05 04:35+05:00"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "DP 427",
+      "callSign": "PBD427",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "RA-73234",
+        "modeS": "151E12",
+        "model": "Boeing 737-800 (winglets)"
+      },
+      "airline": {
+        "name": "Pobeda",
+        "iata": "DP",
+        "icao": "PBD"
+      }
+    }
+  ]
+}

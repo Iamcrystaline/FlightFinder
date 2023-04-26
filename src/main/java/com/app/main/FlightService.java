@@ -1,0 +1,99 @@
+package com.app.main;
+
+import com.app.main.aerodatabox.AeroDataBoxClient;
+import com.app.main.aerodatabox.AeroDataBoxCredentials;
+import com.app.main.aerodatabox.FlightsForAirport;
+import com.app.main.aerodatabox.AirportTimeZone;
+import com.app.main.models.AirportToFlight;
+import com.app.main.models.Flight;
+import com.google.gson.Gson;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
+import java.util.*;
+
+@Service
+@RequiredArgsConstructor
+public class FlightService {
+
+    private final AirportsRepository repository;
+    private final AeroDataBoxClient aeroDataBoxClient;
+    private final AeroDataBoxCredentials aeroDataBoxCredentials;
+    private final Gson gson;
+    private final Clock clock;
+
+    public String findNearestFlight(String arrivalCity, String departureCity) {
+        List<String> arrivalAirportCodes = getAirportIATACodesForCity(arrivalCity);
+        List<String> departureAirportCodes = getAirportIATACodesForCity(departureCity);
+        List<FlightsForAirport> flights = getFlightsForAirportCodes(departureAirportCodes);
+        return findNearestFlightForDepartureCity(arrivalAirportCodes, flights);
+    }
+
+    private String findNearestFlightForDepartureCity(List<String> arrivalAirportCodes, List<FlightsForAirport> flights) {
+        AirportToFlight nearestFlight = flights.stream()
+                .flatMap(flightsForAirport -> flightsForAirport.flights()
+                        .getDepartures()
+                        .stream()
+                        .map(flight -> new AirportToFlight(flightsForAirport.IATACode(), flight)))
+                .filter(airportToFlight -> arrivalAirportCodes.contains(airportToFlight.flight().getArrival().getAirport().getIata()))
+                .filter(airportToFlight -> Objects.nonNull(airportToFlight.flight().getArrival().getScheduledTimeUtc()))
+                .min(Comparator.comparing(airportToFlight -> LocalDateTime.parse(
+                        airportToFlight.flight().getDeparture().getScheduledTimeUtc(),
+                        DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
+                )))
+                .orElseThrow(() -> new FlightNotFoundException("There are no flights in the next 12 hours"));
+        return gson.toJson(new Flight(nearestFlight.IATACode(),
+                nearestFlight.flight().getArrival().getAirport().getIata(),
+                nearestFlight.flight().getDeparture().getScheduledTimeLocal(),
+                nearestFlight.flight().getArrival().getScheduledTimeLocal(),
+                Duration.between(
+                        LocalDateTime.parse(
+                                nearestFlight.flight().getArrival().getScheduledTimeUtc(),
+                                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
+                        ).toLocalTime(),
+                        LocalDateTime.parse(
+                                nearestFlight.flight().getDeparture().getScheduledTimeUtc(),
+                                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
+                        ).toLocalTime()
+                ).toString(),
+                nearestFlight.flight().getAirline().getName()));
+    }
+
+    private List<String> getAirportIATACodesForCity(String city) {
+        return Arrays.asList(repository.findById(city)
+                .orElseThrow(() -> new InvalidCityException(city + " doesn't have any airports or this city doesn't exist"))
+                .getIATACodes()
+                .split(", "));
+    }
+
+    private List<FlightsForAirport> getFlightsForAirportCodes(List<String> airportCodes) {
+        LocalDateTime airportLocalDateTime = getAirportLocalDateTime(airportCodes);
+        return airportCodes.parallelStream()
+                .map(IATACode -> new FlightsForAirport(IATACode, aeroDataBoxClient.getAirportDepartureInfo(
+                        aeroDataBoxCredentials.getKey(),
+                        aeroDataBoxCredentials.getHost(),
+                        IATACode,
+                        airportLocalDateTime.toString(),
+                        airportLocalDateTime.plusHours(12L).toString())))
+                .filter(flightsForAirport -> Objects.nonNull(flightsForAirport.flights()))
+                .toList();
+    }
+
+    private LocalDateTime getAirportLocalDateTime(List<String> airportCodes) {
+        // #TODO: add cashing
+        for (String IATACode : airportCodes) {
+            AirportTimeZone airportTimeZone = aeroDataBoxClient.getAirportTimeZone(
+                    aeroDataBoxCredentials.getKey(),
+                    aeroDataBoxCredentials.getHost(),
+                    IATACode
+            );
+            if (airportTimeZone != null) {
+                return ZonedDateTime.now(clock).withZoneSameInstant(ZoneId.of(airportTimeZone.getTimeZone())).truncatedTo(ChronoUnit.MINUTES).toLocalDateTime();
+            }
+        }
+        throw new InvalidCityException("Can't find information about airports in departure city");
+    }
+}

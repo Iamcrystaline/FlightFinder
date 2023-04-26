@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Full flight information",
+  "description": "All fields are represented and non-nulls",
+  "type": "object",
+  "properties": {
+    "departureAirport": {
+      "description": "IATA code of departure airport",
+      "type": "string"
+    },
+    "arrivalAirport": {
+      "description": "IATA code of arrival airport",
+      "type": "string"
+    },
+    "departureDateTimeLocal": {
+      "description": "Flight departure local date and time",
+      "type": "string"
+    },
+    "arrivalDateTimeLocal": {
+      "description": "Flight departure local date and time",
+      "type": "string"
+    },
+    "timeInFlight": {
+      "description": "Flight duration in hours and minutes",
+      "type": "string"
+    },
+    "airline": {
+      "description": "Name of flight airline",
+      "type": "string"
+    }
+  },
+  "required": [
+    "departureAirport",
+    "arrivalAirport",
+    "departureDateTimeLocal",
+    "arrivalDateTimeLocal",
+    "timeInFlight",
+    "airline"
+  ]
+}
