@@ -1,4 +1,4 @@
-package com.app.main.init;
+package com.app.main.api.init.exceptions;
 
 public class PageStructureException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.app.main;
+package com.app.main.api.exceptions;
 
 public class FlightNotFoundException extends RuntimeException {
 

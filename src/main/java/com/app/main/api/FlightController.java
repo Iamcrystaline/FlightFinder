@@ -1,6 +1,6 @@
-package com.app.main;
+package com.app.main.api;
 
-import com.app.main.models.Flight;
+import com.app.main.api.models.Flight;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

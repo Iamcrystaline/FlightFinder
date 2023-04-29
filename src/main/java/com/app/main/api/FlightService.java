@@ -1,12 +1,14 @@
-package com.app.main;
+package com.app.main.api;
 
-import com.app.main.aerodatabox.AeroDataBoxClient;
-import com.app.main.aerodatabox.AeroDataBoxCredentials;
-import com.app.main.aerodatabox.FlightsForAirport;
-import com.app.main.aerodatabox.AirportTimeZone;
-import com.app.main.models.AirportToFlight;
-import com.app.main.models.Flight;
-import com.google.gson.Gson;
+import com.app.main.api.aerodatabox.AeroDataBoxClient;
+import com.app.main.api.aerodatabox.AeroDataBoxCredentials;
+import com.app.main.api.aerodatabox.FlightsForAirport;
+import com.app.main.api.aerodatabox.AirportTimeZone;
+import com.app.main.api.AirportsRepository;
+import com.app.main.api.exceptions.FlightNotFoundException;
+import com.app.main.api.exceptions.InvalidCityException;
+import com.app.main.api.models.AirportToFlight;
+import com.app.main.api.models.Flight;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -33,7 +35,7 @@ public class FlightService {
 
     private Flight findNearestFlightForDepartureCity(List<String> arrivalAirportCodes, List<FlightsForAirport> flights) {
         AirportToFlight nearestFlight = flights.stream()
-                .flatMap(flightsForAirport -> flightsForAirport.flights()
+                .flatMap(flightsForAirport -> flightsForAirport.departures()
                         .getDepartures()
                         .stream()
                         .map(flight -> new AirportToFlight(flightsForAirport.IATACode(), flight)))
@@ -44,7 +46,7 @@ public class FlightService {
                         airportToFlight.flight().getDeparture().getScheduledTimeUtc(),
                         DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
                 )))
-                .orElseThrow(() -> new FlightNotFoundException("There are no flights in the next 12 hours"));
+                .orElseThrow(() -> new FlightNotFoundException("There are no departures in the next 12 hours"));
         LocalDateTime arrivalDateTime = LocalDateTime.parse(
                 nearestFlight.flight().getArrival().getScheduledTimeUtc(),
                 DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
@@ -79,7 +81,7 @@ public class FlightService {
                         IATACode,
                         airportLocalDateTime.toString(),
                         airportLocalDateTime.plusHours(12L).toString())))
-                .filter(flightsForAirport -> Objects.nonNull(flightsForAirport.flights()))
+                .filter(flightsForAirport -> Objects.nonNull(flightsForAirport.departures()))
                 .toList();
     }
 

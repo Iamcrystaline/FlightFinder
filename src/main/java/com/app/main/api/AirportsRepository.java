@@ -1,6 +1,6 @@
-package com.app.main;
+package com.app.main.api;
 
-import com.app.main.models.AirportsForCity;
+import com.app.main.api.models.AirportsForCity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

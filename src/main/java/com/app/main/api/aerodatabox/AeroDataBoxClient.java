@@ -1,4 +1,4 @@
-package com.app.main.aerodatabox;
+package com.app.main.api.aerodatabox;
 
 import feign.Headers;
 import feign.Param;
@@ -6,7 +6,7 @@ import feign.RequestLine;
 
 public interface AeroDataBoxClient {
 
-    @RequestLine("GET /flights/airports/iata/{airportIATACode}/{searchBeginTime}/{searchEndTime}?" +
+    @RequestLine("GET /departures/airports/iata/{airportIATACode}/{searchBeginTime}/{searchEndTime}?" +
             "withLeg=true&direction=Departure&withCancelled=false&withPrivate=false&withLocation=false")
     @Headers({"X-RapidAPI-Key: {apiKey}", "X-RapidAPI-Host: {apiHost}"})
     FlightsForAirport.Departures getAirportDepartureInfo(@Param("apiKey") String apiKey,

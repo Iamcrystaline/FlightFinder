@@ -1,11 +1,11 @@
-package com.app.main.aerodatabox;
+package com.app.main.api.aerodatabox;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
 
-public record FlightsForAirport(String IATACode, Departures flights) {
+public record FlightsForAirport(String IATACode, Departures departures) {
 
     @Getter
     @NoArgsConstructor

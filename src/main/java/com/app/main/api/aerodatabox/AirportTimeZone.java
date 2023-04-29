@@ -1,4 +1,4 @@
-package com.app.main.aerodatabox;
+package com.app.main.api.aerodatabox;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
