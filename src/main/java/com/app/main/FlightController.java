@@ -1,5 +1,6 @@
 package com.app.main;
 
+import com.app.main.models.Flight;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,8 +15,8 @@ public class FlightController {
     private final FlightService service;
 
     @GetMapping("/getNearestFlight")
-    public String getNearestFlight(@RequestParam("arrivalCity") String arrivalCity,
-                                       @RequestParam("departureCity") String departureCity) {
+    public Flight getNearestFlight(@RequestParam("arrivalCity") String arrivalCity,
+                                   @RequestParam("departureCity") String departureCity) {
         return service.findNearestFlight(arrivalCity, departureCity);
     }
 }

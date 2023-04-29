@@ -25,11 +25,6 @@ public class Config {
     }
 
     @Bean
-    Gson getGson() {
-        return new Gson();
-    }
-
-    @Bean
     AeroDataBoxClient getAeroDataBoxClient() {
         return Feign.builder()
                 .decoder(new GsonDecoder())

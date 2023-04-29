@@ -22,17 +22,16 @@ public class FlightService {
     private final AirportsRepository repository;
     private final AeroDataBoxClient aeroDataBoxClient;
     private final AeroDataBoxCredentials aeroDataBoxCredentials;
-    private final Gson gson;
     private final Clock clock;
 
-    public String findNearestFlight(String arrivalCity, String departureCity) {
+    public Flight findNearestFlight(String arrivalCity, String departureCity) {
         List<String> arrivalAirportCodes = getAirportIATACodesForCity(arrivalCity);
         List<String> departureAirportCodes = getAirportIATACodesForCity(departureCity);
         List<FlightsForAirport> flights = getFlightsForAirportCodes(departureAirportCodes);
         return findNearestFlightForDepartureCity(arrivalAirportCodes, flights);
     }
 
-    private String findNearestFlightForDepartureCity(List<String> arrivalAirportCodes, List<FlightsForAirport> flights) {
+    private Flight findNearestFlightForDepartureCity(List<String> arrivalAirportCodes, List<FlightsForAirport> flights) {
         AirportToFlight nearestFlight = flights.stream()
                 .flatMap(flightsForAirport -> flightsForAirport.flights()
                         .getDepartures()
@@ -40,26 +39,28 @@ public class FlightService {
                         .map(flight -> new AirportToFlight(flightsForAirport.IATACode(), flight)))
                 .filter(airportToFlight -> arrivalAirportCodes.contains(airportToFlight.flight().getArrival().getAirport().getIata()))
                 .filter(airportToFlight -> Objects.nonNull(airportToFlight.flight().getArrival().getScheduledTimeUtc()))
+                .filter(airportToFlight -> Objects.nonNull(airportToFlight.flight().getArrival().getAirport().getIata()))
                 .min(Comparator.comparing(airportToFlight -> LocalDateTime.parse(
                         airportToFlight.flight().getDeparture().getScheduledTimeUtc(),
                         DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
                 )))
                 .orElseThrow(() -> new FlightNotFoundException("There are no flights in the next 12 hours"));
-        return gson.toJson(new Flight(nearestFlight.IATACode(),
+        LocalDateTime arrivalDateTime = LocalDateTime.parse(
+                nearestFlight.flight().getArrival().getScheduledTimeUtc(),
+                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
+        );
+        LocalDateTime departureDateTime = LocalDateTime.parse(
+                nearestFlight.flight().getDeparture().getScheduledTimeUtc(),
+                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
+        );
+        long flightTimeInMinutes = ChronoUnit.MINUTES.between(departureDateTime, arrivalDateTime);
+        return new Flight(nearestFlight.IATACode(),
                 nearestFlight.flight().getArrival().getAirport().getIata(),
                 nearestFlight.flight().getDeparture().getScheduledTimeLocal(),
                 nearestFlight.flight().getArrival().getScheduledTimeLocal(),
-                Duration.between(
-                        LocalDateTime.parse(
-                                nearestFlight.flight().getArrival().getScheduledTimeUtc(),
-                                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
-                        ).toLocalTime(),
-                        LocalDateTime.parse(
-                                nearestFlight.flight().getDeparture().getScheduledTimeUtc(),
-                                DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
-                        ).toLocalTime()
-                ).toString(),
-                nearestFlight.flight().getAirline().getName()));
+                flightTimeInMinutes / 60 + "h " +
+                flightTimeInMinutes % 60 + "m",
+                nearestFlight.flight().getAirline().getName());
     }
 
     private List<String> getAirportIATACodesForCity(String city) {
