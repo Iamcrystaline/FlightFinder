@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flight finder</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+<form class="form-signin w-100 m-auto">
+    <div class="row g-3">
+        <h1 class="h3 mb-3 fw-normal">Find nearest flight</h1>
+        <div class="col-sm-6">
+            <label for="departureCity">Departure city</label>
+            <input type="tel" class="form-control" id="departureCity" placeholder="Москва">
+        </div>
+        <div class="col-sm-6">
+            <label for="arrivalCity">Arrival city</label>
+            <input type="tel" class="form-control" id="arrivalCity" placeholder="Санкт-Петербург">
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit" onclick="makeAPICall();return false">Find flight
+        </button>
+    </div>
+</form>
+<table style="margin-left:auto;margin-right:auto;"></table>
+</body>
+</html>
