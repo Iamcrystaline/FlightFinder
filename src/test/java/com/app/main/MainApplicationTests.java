@@ -207,7 +207,7 @@ class MainApplicationTests {
 
     private void createStubsForYekaterinburg() {
         aeroDataBoxMockServer.stubFor(WireMock
-                .get(urlEqualTo("/departures/airports/iata/SVX/2023-04-04T22:00/2023-04-05T10:00?" +
+                .get(urlEqualTo("/flights/airports/iata/SVX/2023-04-04T22:00/2023-04-05T10:00?" +
                         "withLeg=true&direction=Departure&withCancelled=false&withPrivate=false&withLocation=false"))
                 .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
                 .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
@@ -223,28 +223,28 @@ class MainApplicationTests {
 
     private void createStubsForMoscow() {
         aeroDataBoxMockServer.stubFor(WireMock
-                .get(urlEqualTo("/departures/airports/iata/DME/2023-04-04T20:00/2023-04-05T08:00?" +
+                .get(urlEqualTo("/flights/airports/iata/DME/2023-04-04T20:00/2023-04-05T08:00?" +
                         "withLeg=true&direction=Departure&withCancelled=false&withPrivate=false&withLocation=false"))
                 .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
                 .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
                 .willReturn(aResponse().withBodyFile("DMEResponse.json").withStatus(200))
         );
         aeroDataBoxMockServer.stubFor(WireMock
-                .get(urlEqualTo("/departures/airports/iata/BKA/2023-04-04T20:00/2023-04-05T08:00?" +
+                .get(urlEqualTo("/flights/airports/iata/BKA/2023-04-04T20:00/2023-04-05T08:00?" +
                         "withLeg=true&direction=Departure&withCancelled=false&withPrivate=false&withLocation=false"))
                 .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
                 .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
                 .willReturn(aResponse().withStatus(204))
         );
         aeroDataBoxMockServer.stubFor(WireMock
-                .get(urlEqualTo("/departures/airports/iata/VKO/2023-04-04T20:00/2023-04-05T08:00?" +
+                .get(urlEqualTo("/flights/airports/iata/VKO/2023-04-04T20:00/2023-04-05T08:00?" +
                         "withLeg=true&direction=Departure&withCancelled=false&withPrivate=false&withLocation=false"))
                 .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
                 .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
                 .willReturn(aResponse().withBodyFile("VKOResponse.json").withStatus(200))
         );
         aeroDataBoxMockServer.stubFor(WireMock
-                .get(urlEqualTo("/departures/airports/iata/SVO/2023-04-04T20:00/2023-04-05T08:00?" +
+                .get(urlEqualTo("/flights/airports/iata/SVO/2023-04-04T20:00/2023-04-05T08:00?" +
                         "withLeg=true&direction=Departure&withCancelled=false&withPrivate=false&withLocation=false"))
                 .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
                 .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
