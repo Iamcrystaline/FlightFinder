@@ -1,14 +1,11 @@
-package com.app.main.api;
+package com.app.main.flight;
 
-import com.app.main.api.aerodatabox.AeroDataBoxClient;
-import com.app.main.api.aerodatabox.AeroDataBoxCredentials;
-import com.app.main.api.aerodatabox.FlightsForAirport;
-import com.app.main.api.aerodatabox.AirportTimeZone;
-import com.app.main.api.AirportsRepository;
-import com.app.main.api.exceptions.FlightNotFoundException;
-import com.app.main.api.exceptions.InvalidCityException;
-import com.app.main.api.models.AirportToFlight;
-import com.app.main.api.models.Flight;
+import com.app.main.flight.aerodatabox.AeroDataBoxClient;
+import com.app.main.flight.aerodatabox.AeroDataBoxCredentials;
+import com.app.main.flight.aerodatabox.FlightsForAirport;
+import com.app.main.flight.aerodatabox.AirportTimeZone;
+import com.app.main.flight.models.AirportToFlight;
+import com.app.main.flight.models.Flight;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

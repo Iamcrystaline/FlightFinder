@@ -1,4 +1,4 @@
-package com.app.main.api.models;
+package com.app.main.flight.models;
 
 public record Flight(String departureAirport,
                      String arrivalAirport,

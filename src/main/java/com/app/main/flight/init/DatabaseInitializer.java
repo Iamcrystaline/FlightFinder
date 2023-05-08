@@ -1,9 +1,7 @@
-package com.app.main.api.init;
+package com.app.main.flight.init;
 
-import com.app.main.api.AirportsRepository;
-import com.app.main.api.init.exceptions.PageStructureException;
-import com.app.main.api.init.exceptions.TargetUnreachableException;
-import com.app.main.api.models.AirportsForCity;
+import com.app.main.flight.AirportsRepository;
+import com.app.main.flight.models.AirportsForCity;
 import lombok.RequiredArgsConstructor;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

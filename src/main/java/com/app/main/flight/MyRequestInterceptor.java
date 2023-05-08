@@ -1,4 +1,4 @@
-package com.app.main.api;
+package com.app.main.flight;
 
 import feign.RequestInterceptor;
 import feign.RequestTemplate;

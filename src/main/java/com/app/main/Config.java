@@ -1,8 +1,8 @@
 package com.app.main;
 
-import com.app.main.api.MyRequestInterceptor;
-import com.app.main.api.aerodatabox.AeroDataBoxClient;
-import com.app.main.api.aerodatabox.AeroDataBoxCredentials;
+import com.app.main.flight.MyRequestInterceptor;
+import com.app.main.flight.aerodatabox.AeroDataBoxClient;
+import com.app.main.flight.aerodatabox.AeroDataBoxCredentials;
 import feign.Feign;
 import feign.gson.GsonDecoder;
 import lombok.RequiredArgsConstructor;

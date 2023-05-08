@@ -1,4 +1,4 @@
-package com.app.main.api.aerodatabox;
+package com.app.main.flight.aerodatabox;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

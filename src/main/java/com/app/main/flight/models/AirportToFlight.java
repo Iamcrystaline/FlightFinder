@@ -1,6 +1,6 @@
-package com.app.main.api.models;
+package com.app.main.flight.models;
 
-import com.app.main.api.aerodatabox.FlightsForAirport;
+import com.app.main.flight.aerodatabox.FlightsForAirport;
 
 public record AirportToFlight(String IATACode, FlightsForAirport.Departures.Flight flight) {
 

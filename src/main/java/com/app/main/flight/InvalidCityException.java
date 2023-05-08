@@ -1,4 +1,4 @@
-package com.app.main.api.exceptions;
+package com.app.main.flight;
 
 public class InvalidCityException extends RuntimeException {
 
