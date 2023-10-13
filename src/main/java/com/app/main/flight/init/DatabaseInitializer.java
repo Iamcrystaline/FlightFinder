@@ -23,29 +23,29 @@ public class DatabaseInitializer {
 
     private final AirportsRepository repository;
 
-    @Value("${app.aeroportix.url}")
-    private String aeroportixUrl;
+    @Value("${app.wiki.url}")
+    private String wikiUrl;
 
     @EventListener
     public void initTable(ContextRefreshedEvent event) {
-        Document aeroportixDoc;
+        Document wikiDoc;
         try {
-            aeroportixDoc = Jsoup.connect(aeroportixUrl).get();
+            wikiDoc = Jsoup.connect(wikiUrl).get();
         } catch (IOException e) {
             e.printStackTrace();
-            throw new TargetUnreachableException("Can't get information from " + aeroportixUrl + ", " +
-                    "please check aeroportixUrl correctness and try again later");
+            throw new TargetUnreachableException("Can't get information from " + wikiUrl + ", " +
+                    "please check wikiUrl correctness and try again later");
         }
-        Element airportsInfoTable = aeroportixDoc.selectFirst("table");
+        Element airportsInfoTable = wikiDoc.selectFirst("table");
         if (airportsInfoTable == null) {
-            throw new PageStructureException(aeroportixUrl + " page structure has been changed. Check out the url and fix data extraction");
+            throw new PageStructureException(wikiUrl + " page structure has been changed. Check out the url and fix data extraction");
         }
         repository.saveAll(extractDataFromTable(airportsInfoTable));
     }
 
     private List<AirportsForCity> extractDataFromTable(Element airportsInfoTable) {
         Elements tableCells = airportsInfoTable.select("tr > td");
-        List<Airport> airports = new ArrayList<>(150);
+        List<Airport> airports = new ArrayList<>(100);
         for (int i = 0; i < tableCells.size(); i += 5) {
             airports.add(new Airport(
                     tableCells.get(i + 1).text(),

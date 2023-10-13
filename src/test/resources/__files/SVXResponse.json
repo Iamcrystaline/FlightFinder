@@ -2,10 +2,6 @@
   "departures": [
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-04 23:10+05:00",
-        "actualTimeLocal": "2023-04-04 23:23+05:00",
-        "scheduledTimeUtc": "2023-04-04 18:10Z",
-        "actualTimeUtc": "2023-04-04 18:23Z",
         "scheduledTime": {
           "utc": "2023-04-04 18:10Z",
           "local": "2023-04-04 23:10+05:00"
@@ -23,8 +19,6 @@
         "airport": {
           "name": "Surgut"
         },
-        "scheduledTimeLocal": "2023-04-05 01:35+05:00",
-        "scheduledTimeUtc": "2023-04-04 20:35Z",
         "scheduledTime": {
           "utc": "2023-04-04 20:35Z",
           "local": "2023-04-05 01:35+05:00"
@@ -48,10 +42,6 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-04 22:10+05:00",
-        "actualTimeLocal": "2023-04-04 22:21+05:00",
-        "scheduledTimeUtc": "2023-04-04 17:10Z",
-        "actualTimeUtc": "2023-04-04 17:21Z",
         "scheduledTime": {
           "utc": "2023-04-04 17:10Z",
           "local": "2023-04-04 22:10+05:00"
@@ -71,12 +61,6 @@
           "iata": "LED",
           "name": "Saint-Petersburg"
         },
-        "scheduledTimeLocal": "2023-04-04 23:05+03:00",
-        "actualTimeLocal": "2023-04-04 23:06+03:00",
-        "runwayTimeLocal": "2023-04-04 22:57+03:00",
-        "scheduledTimeUtc": "2023-04-04 20:05Z",
-        "actualTimeUtc": "2023-04-04 20:06Z",
-        "runwayTimeUtc": "2023-04-04 19:57Z",
         "scheduledTime": {
           "utc": "2023-04-04 20:05Z",
           "local": "2023-04-04 23:05+03:00"
@@ -113,10 +97,6 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-04 22:10+05:00",
-        "actualTimeLocal": "2023-04-04 22:21+05:00",
-        "scheduledTimeUtc": "2023-04-04 17:10Z",
-        "actualTimeUtc": "2023-04-04 17:21Z",
         "scheduledTime": {
           "utc": "2023-04-04 17:10Z",
           "local": "2023-04-04 22:10+05:00"
@@ -136,12 +116,6 @@
           "iata": "LED",
           "name": "Saint-Petersburg"
         },
-        "scheduledTimeLocal": "2023-04-04 23:05+03:00",
-        "actualTimeLocal": "2023-04-04 23:06+03:00",
-        "runwayTimeLocal": "2023-04-04 22:57+03:00",
-        "scheduledTimeUtc": "2023-04-04 20:05Z",
-        "actualTimeUtc": "2023-04-04 20:06Z",
-        "runwayTimeUtc": "2023-04-04 19:57Z",
         "scheduledTime": {
           "utc": "2023-04-04 20:05Z",
           "local": "2023-04-04 23:05+03:00"
@@ -178,13 +152,9 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-04 22:10+05:00",
-        "actualTimeLocal": "2023-04-04 23:07+05:00",
-        "scheduledTimeUtc": "2023-04-04 17:10Z",
-        "actualTimeUtc": "2023-04-04 18:07Z",
         "scheduledTime": {
-          "utc": "2023-04-04 18:00Z",
-          "local": "2023-04-04 23:00+05:00"
+          "utc": "2023-04-04 17:10Z",
+          "local": "2023-04-04 22:10+05:00"
         },
         "revisedTime": {
           "utc": "2023-04-04 18:07Z",
@@ -201,15 +171,9 @@
           "iata": "SVO",
           "name": "Moscow"
         },
-        "scheduledTimeLocal": "2023-04-04 22:50+03:00",
-        "actualTimeLocal": "2023-04-04 23:29+03:00",
-        "runwayTimeLocal": "2023-04-04 23:19+03:00",
-        "scheduledTimeUtc": "2023-04-04 19:50Z",
-        "actualTimeUtc": "2023-04-04 20:29Z",
-        "runwayTimeUtc": "2023-04-04 20:19Z",
         "scheduledTime": {
-          "utc": "2023-04-04 20:40Z",
-          "local": "2023-04-04 23:40+03:00"
+          "utc": "2023-04-04 19:50Z",
+          "local": "2023-04-04 22:50+03:00"
         },
         "revisedTime": {
           "utc": "2023-04-04 20:29Z",
@@ -244,10 +208,6 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-04 22:20+05:00",
-        "actualTimeLocal": "2023-04-04 23:29+05:00",
-        "scheduledTimeUtc": "2023-04-04 17:20Z",
-        "actualTimeUtc": "2023-04-04 18:29Z",
         "scheduledTime": {
           "utc": "2023-04-04 17:20Z",
           "local": "2023-04-04 22:20+05:00"
@@ -267,12 +227,6 @@
           "iata": "SVO",
           "name": "Moscow"
         },
-        "scheduledTimeLocal": "2023-04-04 23:00+03:00",
-        "actualTimeLocal": "2023-04-04 23:46+03:00",
-        "runwayTimeLocal": "2023-04-04 23:40+03:00",
-        "scheduledTimeUtc": "2023-04-04 20:00Z",
-        "actualTimeUtc": "2023-04-04 20:46Z",
-        "runwayTimeUtc": "2023-04-04 20:40Z",
         "scheduledTime": {
           "utc": "2023-04-04 20:00Z",
           "local": "2023-04-04 23:00+03:00"
@@ -310,10 +264,6 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-05 05:15+05:00",
-        "actualTimeLocal": "2023-04-05 05:19+05:00",
-        "scheduledTimeUtc": "2023-04-05 00:15Z",
-        "actualTimeUtc": "2023-04-05 00:19Z",
         "scheduledTime": {
           "utc": "2023-04-05 00:15Z",
           "local": "2023-04-05 05:15+05:00"
@@ -333,12 +283,6 @@
           "iata": "SVO",
           "name": "Moscow"
         },
-        "scheduledTimeLocal": "2023-04-05 05:50+03:00",
-        "actualTimeLocal": "2023-04-05 05:35+03:00",
-        "runwayTimeLocal": "2023-04-05 05:29+03:00",
-        "scheduledTimeUtc": "2023-04-05 02:50Z",
-        "actualTimeUtc": "2023-04-05 02:35Z",
-        "runwayTimeUtc": "2023-04-05 02:29Z",
         "scheduledTime": {
           "utc": "2023-04-05 02:50Z",
           "local": "2023-04-05 05:50+03:00"
@@ -373,10 +317,6 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-05 05:15+05:00",
-        "actualTimeLocal": "2023-04-05 05:19+05:00",
-        "scheduledTimeUtc": "2023-04-05 00:15Z",
-        "actualTimeUtc": "2023-04-05 00:19Z",
         "scheduledTime": {
           "utc": "2023-04-05 00:15Z",
           "local": "2023-04-05 05:15+05:00"
@@ -396,12 +336,6 @@
           "iata": "SVO",
           "name": "Moscow"
         },
-        "scheduledTimeLocal": "2023-04-05 05:50+03:00",
-        "actualTimeLocal": "2023-04-05 05:35+03:00",
-        "runwayTimeLocal": "2023-04-05 05:29+03:00",
-        "scheduledTimeUtc": "2023-04-05 02:50Z",
-        "actualTimeUtc": "2023-04-05 02:35Z",
-        "runwayTimeUtc": "2023-04-05 02:29Z",
         "scheduledTime": {
           "utc": "2023-04-05 02:50Z",
           "local": "2023-04-05 05:50+03:00"
@@ -439,10 +373,6 @@
     },
     {
       "departure": {
-        "scheduledTimeLocal": "2023-04-05 05:40+05:00",
-        "actualTimeLocal": "2023-04-05 05:48+05:00",
-        "scheduledTimeUtc": "2023-04-05 00:40Z",
-        "actualTimeUtc": "2023-04-05 00:48Z",
         "scheduledTime": {
           "utc": "2023-04-05 00:40Z",
           "local": "2023-04-05 05:40+05:00"

@@ -137,7 +137,7 @@ class MainApplicationTests {
         io.restassured.RestAssured.get("/api/v1/getNearestFlight?arrivalCity=" + arrivalCity + "&departureCity=" + departureCity)
                 .then()
                 .assertThat()
-                .body("message", org.hamcrest.Matchers.equalTo("There are no departures in the next 12 hours"))
+                .body("message", org.hamcrest.Matchers.equalTo("There are no flights in the next 12 hours"))
                 .body("status", org.hamcrest.Matchers.equalTo(500));
     }
 
@@ -255,6 +255,24 @@ class MainApplicationTests {
                 .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
                 .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
                 .willReturn(aResponse().withBodyFile("DMETimeZone.json").withStatus(200))
+        );
+        aeroDataBoxMockServer.stubFor(WireMock
+                .get(urlEqualTo("/airports/iata/BKA"))
+                .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
+                .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
+                .willReturn(aResponse().withStatus(204))
+        );
+        aeroDataBoxMockServer.stubFor(WireMock
+                .get(urlEqualTo("/airports/iata/VKO"))
+                .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
+                .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
+                .willReturn(aResponse().withBodyFile("VKOTimeZone.json").withStatus(204))
+        );
+        aeroDataBoxMockServer.stubFor(WireMock
+                .get(urlEqualTo("/airports/iata/SVO"))
+                .withHeader("X-RapidAPI-Key", equalTo("secretKey"))
+                .withHeader("X-RapidAPI-Host", equalTo("secretHost"))
+                .willReturn(aResponse().withBodyFile("SVOTimeZone.json").withStatus(204))
         );
     }
 

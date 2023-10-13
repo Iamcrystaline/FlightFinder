@@ -24,8 +24,15 @@ public record FlightsForAirport(String IATACode, Departures departures) {
             @NoArgsConstructor
             public static class Departure {
 
-                private String scheduledTimeUtc;
-                private String scheduledTimeLocal;
+                private Arrival.ScheduledTime scheduledTime;
+
+                @Getter
+                @NoArgsConstructor
+                public static class ScheduledTime{
+
+                    private String utc;
+                    private String local;
+                }
             }
 
             @Getter
@@ -33,8 +40,16 @@ public record FlightsForAirport(String IATACode, Departures departures) {
             public static class Arrival {
 
                 private Airport airport;
-                private String scheduledTimeUtc;
-                private String scheduledTimeLocal;
+
+                private ScheduledTime scheduledTime;
+
+                @Getter
+                @NoArgsConstructor
+                public static class ScheduledTime{
+
+                    private String utc;
+                    private String local;
+                }
 
                 @Getter
                 @NoArgsConstructor

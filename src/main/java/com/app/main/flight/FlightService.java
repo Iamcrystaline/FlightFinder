@@ -37,26 +37,26 @@ public class FlightService {
                         .stream()
                         .map(flight -> new AirportToFlight(flightsForAirport.IATACode(), flight)))
                 .filter(airportToFlight -> arrivalAirportCodes.contains(airportToFlight.flight().getArrival().getAirport().getIata()))
-                .filter(airportToFlight -> Objects.nonNull(airportToFlight.flight().getArrival().getScheduledTimeUtc()))
+                .filter(airportToFlight -> Objects.nonNull(airportToFlight.flight().getArrival().getScheduledTime()))
                 .filter(airportToFlight -> Objects.nonNull(airportToFlight.flight().getArrival().getAirport().getIata()))
                 .min(Comparator.comparing(airportToFlight -> LocalDateTime.parse(
-                        airportToFlight.flight().getDeparture().getScheduledTimeUtc(),
+                        airportToFlight.flight().getDeparture().getScheduledTime().getUtc(),
                         DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
                 )))
-                .orElseThrow(() -> new FlightNotFoundException("There are no departures in the next 12 hours"));
+                .orElseThrow(() -> new FlightNotFoundException("There are no flights in the next 12 hours"));
         LocalDateTime arrivalDateTime = LocalDateTime.parse(
-                nearestFlight.flight().getArrival().getScheduledTimeUtc(),
+                nearestFlight.flight().getArrival().getScheduledTime().getUtc(),
                 DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
         );
         LocalDateTime departureDateTime = LocalDateTime.parse(
-                nearestFlight.flight().getDeparture().getScheduledTimeUtc(),
+                nearestFlight.flight().getDeparture().getScheduledTime().getUtc(),
                 DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm'Z'")
         );
         long flightTimeInMinutes = ChronoUnit.MINUTES.between(departureDateTime, arrivalDateTime);
         return new Flight(nearestFlight.IATACode(),
                 nearestFlight.flight().getArrival().getAirport().getIata(),
-                nearestFlight.flight().getDeparture().getScheduledTimeLocal(),
-                nearestFlight.flight().getArrival().getScheduledTimeLocal(),
+                nearestFlight.flight().getDeparture().getScheduledTime().getLocal(),
+                nearestFlight.flight().getArrival().getScheduledTime().getUtc(),
                 flightTimeInMinutes / 60 + "h " +
                 flightTimeInMinutes % 60 + "m",
                 nearestFlight.flight().getAirline().getName());

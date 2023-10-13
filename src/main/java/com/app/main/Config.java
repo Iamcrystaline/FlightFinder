@@ -28,8 +28,6 @@ public class Config {
     AeroDataBoxClient getAeroDataBoxClient() {
         return Feign.builder()
                 .decoder(new GsonDecoder())
-                // #TODO: do i need timeout?
-                // .options(new Request.Options(5, TimeUnit.SECONDS, 5, TimeUnit.SECONDS, true))
                 .requestInterceptor(new MyRequestInterceptor())
                 .target(AeroDataBoxClient.class, aeroDataBoxCredentials.getUrl());
     }
