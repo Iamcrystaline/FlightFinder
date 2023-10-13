@@ -21,7 +21,7 @@ General:
 To run it locally:
 1. `docker compose up`
 2. `mvn clean install`
-3. `java -jar ./target/demo-0.0.1-SNAPSHOT.jar`
+3. `java -jar ./target/main-0.0.1-SNAPSHOT.jar`
 
 To run tests with reports:
 1. `docker compose up`
